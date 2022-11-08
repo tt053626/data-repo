@@ -26,12 +26,12 @@
             "constraints": {
               "enum": [
                 "",
-                "Men",
-                "Total",
-                "Women"
+                "data.m",
+                "data.tot",
+                "data.w"
               ]
             },
-            "title": "Sex"
+            "title": "data.sex"
           }
         ]
       }
@@ -39,5 +39,5 @@
   ],
   "profile": "data-package",
   "name": "5-5-1",
-  "title": "Proportion of women in the Treptow-Köpenick district assembly (BVV)"
+  "title": "Proportion of seats held by women in (a) national parliaments and (b) local governments"
 }

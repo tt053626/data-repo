@@ -26,19 +26,19 @@
             "constraints": {
               "enum": [
                 "",
-                "Ableism",
-                "Anti-Semitism",
-                "Political opponents",
-                "LGBTIQ* hostility",
-                "Racism",
-                "Right-wing and extreme right-wing self-portrayal",
-                "Social-chauvinism",
-                "Total",
-                "NS trivialization and glorification",
-                "Campaign"
+                "data.ableism",
+                "data.antisem",
+                "data.polgeg",
+                "data.qhostility",
+                "data.racism",
+                "data.rightwing",
+                "data.sozch",
+                "data.tot",
+                "data.trivil",
+                "data.wahlk"
               ]
             },
-            "title": "Type of incident"
+            "title": "data.incident"
           }
         ]
       }
@@ -46,5 +46,5 @@
   ],
   "profile": "data-package",
   "name": "16-3-1",
-  "title": "Number of racist, anti-Semitic, homophobic and right-wing extremist incidents per year in Treptow-Köpenick"
+  "title": "Proportion of victims of violence in the previous 12 months who reported their victimization to competent authorities or other officially recognized conflict resolution mechanisms"
 }

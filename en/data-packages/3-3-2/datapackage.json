@@ -26,12 +26,12 @@
             "constraints": {
               "enum": [
                 "",
-                "Ozone 8-hour values",
-                "Ozone hourly values",
-                "Particulates (PM10)"
+                "data.ozonacht",
+                "data.ozonst",
+                "data.pm"
               ]
             },
-            "title": "Air quality"
+            "title": "data.luftg"
           }
         ]
       }
@@ -39,5 +39,5 @@
   ],
   "profile": "data-package",
   "name": "3-3-2",
-  "title": "Air pollution limits in Treptow-Köpenick"
+  "title": "Tuberculosis incidence per 100,000 population"
 }

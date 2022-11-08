@@ -24,7 +24,7 @@
           }
         ]
       },
-      "title": "Number of tree patrons"
+      "title": "Ratio of land consumption rate to population growth rate"
     },
     {
       "path": "12-4-1/data.csv",
@@ -42,9 +42,9 @@
             "constraints": {
               "enum": [
                 "",
-                "In application",
-                "No application",
-                "Fairtrade-School certified"
+                "data.inB",
+                "data.keineB",
+                "data.zert"
               ]
             },
             "title": "Status"
@@ -61,7 +61,7 @@
           }
         ]
       },
-      "title": "Number of fair trade schools in Treptow-Köpenick"
+      "title": "Number of parties to international multilateral environmental agreements on hazardous waste, and other chemicals that meet their commitments and obligations in transmitting information as required by each relevant agreement"
     },
     {
       "path": "11-4-1/data.csv",
@@ -89,13 +89,13 @@
             "constraints": {
               "enum": [
                 "",
-                "Walking",
-                "Motorized private transport",
-                "Public transport",
-                "Bicycle"
+                "data.fuss",
+                "data.miv",
+                "data.offis",
+                "data.rad"
               ]
             },
-            "title": "Main means of transport"
+            "title": "data.maintransport"
           },
           {
             "name": "data.spatialtypes",
@@ -103,16 +103,16 @@
             "constraints": {
               "enum": [
                 "",
-                "All routes",
-                "Domestic traffic",
-                "Source and destination traffic"
+                "data.allewege",
+                "data.binnen",
+                "data.quell"
               ]
             },
-            "title": "Traffic flow types"
+            "title": "data.spatialtypes"
           }
         ]
       },
-      "title": "Frequency of means of transportation used on routes in Treptow-Köpenick"
+      "title": "Total per capita expenditure on the preservation, protection and conservation of all cultural and natural heritage, by source of funding (public, private), type of heritage (cultural, natural) and level of government (national, regional, and local/municipal)"
     },
     {
       "path": "5-2-1/data.csv",
@@ -136,7 +136,7 @@
           }
         ]
       },
-      "title": "Number of trainings offered by the district office on gender-sensitive language use"
+      "title": "Proportion of ever-partnered women and girls aged 15 years and older subjected to physical, sexual or psychological violence by a current or former intimate partner in the previous 12 months, by form of violence and by age"
     },
     {
       "path": "7-3-1/data.csv",
@@ -171,11 +171,11 @@
                 ">750 kW"
               ]
             },
-            "title": "Power class"
+            "title": "data.pow"
           }
         ]
       },
-      "title": "Photovoltaics - Total installations in the district"
+      "title": "Energy intensity measured in terms of primary energy and GDP"
     },
     {
       "path": "6-2-1/data.csv",
@@ -199,7 +199,7 @@
           }
         ]
       },
-      "title": "Number of extracurricular institutions for nature and environmental education / education for sustainable development (ESD)"
+      "title": "Proportion of population using (a) safely managed sanitation services and (b) a hand-washing facility with soap and water"
     },
     {
       "path": "8-1-1/data.csv",
@@ -223,7 +223,7 @@
           }
         ]
       },
-      "title": "Number of companies in Treptow-Köpenick that have a valid \"Common Good Balance\" certificate"
+      "title": "Annual growth rate of real GDP per capita"
     },
     {
       "path": "5-3-1/data.csv",
@@ -247,7 +247,7 @@
           }
         ]
       },
-      "title": "Number of projects, contact points and counseling services for girls and young women in Treptow-Köpenick"
+      "title": "Proportion of women aged 20–24 years who were married or in a union before age 15 and before age 18"
     },
     {
       "path": "13-2-1/data.csv",
@@ -271,7 +271,7 @@
           }
         ]
       },
-      "title": "Average weekday bicycle traffic at the Treptow-Köpenick Kaisersteg counting station"
+      "title": "Number of countries with nationally determined contributions, long-term strategies, national adaptation plans, strategies as reported in adaptation communications and national communications"
     },
     {
       "path": "11-2-3/data.csv",
@@ -295,7 +295,7 @@
           }
         ]
       },
-      "title": "Number of bee colonies in the district"
+      "title": "global_indicators.11-2-3-title"
     },
     {
       "path": "13-2-2/data.csv",
@@ -323,7 +323,7 @@
             "constraints": {
               "enum": [
                 "",
-                "Total",
+                "data.tot",
                 "fLotte kommunal",
                 "fLotte nicht-kommunal"
               ]
@@ -332,7 +332,7 @@
           }
         ]
       },
-      "title": "Number of cargo bikes that can be borrowed free of charge in the district"
+      "title": "Total greenhouse gas emissions per year"
     },
     {
       "path": "13-3-1/data.csv",
@@ -360,17 +360,17 @@
             "constraints": {
               "enum": [
                 "",
-                "Manufacturing sector",
-                "Households, business, trade and services, other consumers",
-                "Total",
-                "Transportation"
+                "data.gewerbe",
+                "data.haushalte",
+                "data.tot",
+                "data.verkehr"
               ]
             },
-            "title": "Emitting sectors"
+            "title": "data.esek"
           }
         ]
       },
-      "title": "CO2 emissions from final energy consumption (polluter balance)"
+      "title": "Extent to which (i) global citizenship education and (ii) education for sustainable development are mainstreamed in (a) national education policies; (b) curricula; (c) teacher education; and (d) student assessment"
     },
     {
       "path": "15-2-1/data.csv",
@@ -394,7 +394,7 @@
           }
         ]
       },
-      "title": "Number of participations of the district in meetings and events of the biodiversity network per year"
+      "title": "Progress towards sustainable forest management"
     },
     {
       "path": "17-6-1/data.csv",
@@ -430,7 +430,7 @@
           }
         ]
       },
-      "title": "Public spending on development cooperation (Official Development Assistance, ODA)"
+      "title": "Fixed Internet broadband subscriptions per 100 inhabitants, by speed"
     },
     {
       "path": "17-2-1/data.csv",
@@ -454,7 +454,7 @@
           }
         ]
       },
-      "title": "Quantity of fair trade coffee packages sold (Treptow-Köpenicker Bohne)"
+      "title": "Net official development assistance, total and to least developed countries, as a proportion of the Organization for Economic Cooperation and Development (OECD) Development Assistance Committee donors’ gross national income (GNI)"
     },
     {
       "path": "4-1-1/data.csv",
@@ -478,7 +478,7 @@
           }
         ]
       },
-      "title": "Number of schools participating in learning conferences per year"
+      "title": "Proportion of children and young people (a) in grades 2/3; (b) at the end of primary; and (c) at the end of lower secondary achieving at least a minimum proficiency level in (i) reading and (ii) mathematics, by sex"
     },
     {
       "path": "8-2-1/data.csv",
@@ -514,7 +514,7 @@
           }
         ]
       },
-      "title": "Number of participants in the mentoring program"
+      "title": "Annual growth rate of real GDP per employed person"
     },
     {
       "path": "17-1-1/data.csv",
@@ -554,14 +554,14 @@
                 "Subotica",
                 "Veszprem",
                 "Warszawa",
-                "Total"
+                "data.tot"
               ]
             },
-            "title": "Twin Town"
+            "title": "data.partner"
           }
         ]
       },
-      "title": "Number of activities with twin towns and events on the subject of city partnerships of the Treptow-Köpenick district office per year"
+      "title": "Total government revenue as a proportion of GDP, by source"
     },
     {
       "path": "8-2-2/data.csv",
@@ -597,7 +597,7 @@
           }
         ]
       },
-      "title": "Proportion of applicants with immigration history"
+      "title": "global_indicators.8-2-2-title"
     },
     {
       "path": "17-3-5/data.csv",
@@ -621,7 +621,7 @@
           }
         ]
       },
-      "title": "Fair trade"
+      "title": "global_indicators.17-3-5-title"
     },
     {
       "path": "10-4-1/data.csv",
@@ -657,7 +657,7 @@
           }
         ]
       },
-      "title": "Gini coefficient of equivalent income in Treptow-Köpenick"
+      "title": "Labour share of GDP"
     },
     {
       "path": "12-1-1/data.csv",
@@ -681,7 +681,7 @@
           }
         ]
       },
-      "title": "Number of training courses on sustainable and fair procurement per year"
+      "title": "Number of countries developing, adopting or implementing policy instruments aimed at supporting the shift to sustainable consumption and production"
     },
     {
       "path": "7-1-1/data.csv",
@@ -717,7 +717,7 @@
           }
         ]
       },
-      "title": "To be defined"
+      "title": "Proportion of population with access to electricity"
     },
     {
       "path": "11-2-2/data.csv",
@@ -741,7 +741,7 @@
           }
         ]
       },
-      "title": "Number of beekeepers in the district"
+      "title": "global_indicators.11-2-2-title"
     },
     {
       "path": "3-1-3/data.csv",
@@ -765,7 +765,7 @@
           }
         ]
       },
-      "title": "City cycling – Kilograms of CO2 saved"
+      "title": "global_indicators.3-1-3-title"
     },
     {
       "path": "8-3-1/data.csv",
@@ -801,7 +801,7 @@
           }
         ]
       },
-      "title": "Proportion of employees with immigration history"
+      "title": "Proportion of informal employment in total employment, by sector and sex"
     },
     {
       "path": "17-4-1/data.csv",
@@ -829,18 +829,18 @@
             "constraints": {
               "enum": [
                 "",
-                "Parish projects",
-                "School partnerships",
-                "City partnerships",
-                "Fair Trade Shops",
-                "Civil society projects"
+                "data.gemeindep",
+                "data.schulp",
+                "data.stapa",
+                "data.weltl",
+                "data.zivip"
               ]
             },
-            "title": "One-World-Projects"
+            "title": "data.einewelt"
           }
         ]
       },
-      "title": "One world projects and partnerships in the Treptow-Köpenick district"
+      "title": "Debt service as a proportion of exports of goods and services"
     },
     {
       "path": "9-1-1/data.csv",
@@ -868,16 +868,16 @@
             "constraints": {
               "enum": [
                 "",
-                "Publicly accessible - on private land",
-                "Public space",
-                "Total"
+                "data.private",
+                "data.public",
+                "data.tot"
               ]
             },
-            "title": "Location"
+            "title": "data.standort"
           }
         ]
       },
-      "title": "Number of charging stations for e-cars"
+      "title": "Proportion of the rural population who live within 2 km of an all-season road"
     },
     {
       "path": "4-4-1/data.csv",
@@ -901,7 +901,7 @@
           }
         ]
       },
-      "title": "To be defined"
+      "title": "Proportion of youth and adults with information and communications technology (ICT) skills, by type of skill"
     },
     {
       "path": "10-2-1/data.csv",
@@ -937,7 +937,7 @@
           }
         ]
       },
-      "title": "Number of training courses offered within the district administration"
+      "title": "Proportion of people living below 50 per cent of median income, by sex, age and persons with disabilities"
     },
     {
       "path": "2-3-1/data.csv",
@@ -961,7 +961,7 @@
           }
         ]
       },
-      "title": "Kilograms of food rescued (foodsharing)"
+      "title": "Volume of production per labour unit by classes of farming/pastoral/forestry enterprise size"
     },
     {
       "path": "3-1-2/data.csv",
@@ -985,7 +985,7 @@
           }
         ]
       },
-      "title": "City cycling - Kilometers ridden by bicycle"
+      "title": "Proportion of births attended by skilled health personnel"
     },
     {
       "path": "13-1-2/data.csv",
@@ -1013,15 +1013,15 @@
             "constraints": {
               "enum": [
                 "",
-                "Yes-Answers",
-                "No-Answers"
+                "data.ja",
+                "data.nein"
               ]
             },
-            "title": "Answers"
+            "title": "data.antworten"
           }
         ]
       },
-      "title": "Municipal Climate Protection Index"
+      "title": "Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015–2030"
     },
     {
       "path": "9-1-2/data.csv",
@@ -1045,7 +1045,7 @@
           }
         ]
       },
-      "title": "Electricity consumption at electric charging stations"
+      "title": "Passenger and freight volumes, by mode of transport"
     },
     {
       "path": "17-3-3/data.csv",
@@ -1069,7 +1069,7 @@
           }
         ]
       },
-      "title": "School partnerships"
+      "title": "global_indicators.17-3-3-title"
     },
     {
       "path": "2-2-1/data.csv",
@@ -1093,7 +1093,7 @@
           }
         ]
       },
-      "title": "Fair certified food in Berlin's school catering system"
+      "title": "Prevalence of stunting (height for age <-2 standard deviation from the median of the World Health Organization (WHO) Child Growth Standards) among children under 5 years of age"
     },
     {
       "path": "6-3-1/data.csv",
@@ -1121,17 +1121,17 @@
             "constraints": {
               "enum": [
                 "",
-                "Excellent",
-                "Sufficient",
-                "Good",
-                "Poor"
+                "data.Ausgezeichnet",
+                "data.Ausreichend",
+                "data.Gut",
+                "data.Mangelhaft"
               ]
             },
-            "title": "Category"
+            "title": "data.kat"
           }
         ]
       },
-      "title": "Bathing water quality of the bathing sites within the district Treptow-Köpenick"
+      "title": "Proportion of domestic and industrial wastewater flows safely treated"
     },
     {
       "path": "17-3-1/data.csv",
@@ -1155,7 +1155,7 @@
           }
         ]
       },
-      "title": "City partnerships"
+      "title": "Foreign direct investment, official development assistance and South-South cooperation as a proportion of gross national income"
     },
     {
       "path": "1-2-1/data.csv",
@@ -1183,16 +1183,16 @@
             "constraints": {
               "enum": [
                 "",
-                "Repair Cafes",
-                "ReUse Shops",
-                "Community Workshops"
+                "data.repcaf",
+                "data.reuse",
+                "data.workshops"
               ]
             },
-            "title": "Group"
+            "title": "data.group"
           }
         ]
       },
-      "title": "Number of repair cafes, community workshops and ReUse shops in Treptow-Köpenick"
+      "title": "Proportion of population living below the national poverty line, by sex and age"
     },
     {
       "path": "12-3-1/data.csv",
@@ -1216,7 +1216,7 @@
           }
         ]
       },
-      "title": "Status of certification of the municipality as a Fairtrade Town"
+      "title": "(a) Food loss index and (b) food waste index"
     },
     {
       "path": "14-1-1/data.csv",
@@ -1244,23 +1244,23 @@
             "constraints": {
               "enum": [
                 "",
-                "Data Deficient",
-                "Threatened",
-                "Not Evaluated",
-                "Threatened with Extinction",
-                "Threat of Unknown Extent",
-                "Extinct or Lost",
-                "Extremely Rare",
-                "Near Threatened",
-                "Highly Threatened",
-                "Not Threatened"
+                "data.rld",
+                "data.rldrei",
+                "data.rle",
+                "data.rleins",
+                "data.rlg",
+                "data.rlnull",
+                "data.rlr",
+                "data.rlv",
+                "data.rlzwei",
+                "data.tlu"
               ]
             },
-            "title": "Red List Categories"
+            "title": "data.redlistcat"
           }
         ]
       },
-      "title": "Red list classification of fish species occurring in Berlin waters"
+      "title": "(a) Index of coastal eutrophication; and (b) plastic debris density"
     },
     {
       "path": "11-5-1/data.csv",
@@ -1288,17 +1288,17 @@
             "constraints": {
               "enum": [
                 "",
-                "Sports, leisure and recreation area",
-                "Industrial and commercial area",
-                "Settlement area",
-                "Residential area"
+                "data.freiz",
+                "data.indu",
+                "data.sied",
+                "data.wohn"
               ]
             },
-            "title": "Area"
+            "title": "data.area"
           }
         ]
       },
-      "title": "Sports, leisure and recreation space in Treptow-Köpenick"
+      "title": "Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population"
     },
     {
       "path": "2-1-1/data.csv",
@@ -1363,7 +1363,7 @@
           }
         ]
       },
-      "title": "Publicly accessible fruit trees and kitchen gardens"
+      "title": "Prevalence of undernourishment"
     },
     {
       "path": "6-1-1/data.csv",
@@ -1391,15 +1391,15 @@
             "constraints": {
               "enum": [
                 "",
-                "Saprobity",
-                "Trophicity"
+                "data.saprobie",
+                "data.trophie"
               ]
             },
-            "title": "Status"
+            "title": "data.zustand"
           }
         ]
       },
-      "title": "Saprobity (organic load) and trophicity (nutrient load) of the Müggelsee lake"
+      "title": "Proportion of population using safely managed drinking water services"
     },
     {
       "path": "13-2-3/data.csv",
@@ -1423,7 +1423,7 @@
           }
         ]
       },
-      "title": "Kilometers of bike freeways in the district"
+      "title": "global_indicators.13-2-3-title"
     },
     {
       "path": "16-1-1/data.csv",
@@ -1447,7 +1447,7 @@
           }
         ]
       },
-      "title": "Number of participatory events on the topic of SDGs organized by the Treptow-Köpenick district office per year"
+      "title": "Number of victims of intentional homicide per 100,000 population, by sex and age"
     },
     {
       "path": "17-3-4/data.csv",
@@ -1471,7 +1471,7 @@
           }
         ]
       },
-      "title": "Other civil society projects"
+      "title": "global_indicators.17-3-4-title"
     },
     {
       "path": "4-2-1/data.csv",
@@ -1495,7 +1495,7 @@
           }
         ]
       },
-      "title": "Number of training courses offered on 'Education for Sustainable Development' (ESD) for educational staff at schools in Treptow-Köpenick"
+      "title": "Proportion of children aged 24-59 months who are developmentally on track in health, learning and psychosocial well-being, by sex"
     },
     {
       "path": "10-3-1/data.csv",
@@ -1519,7 +1519,7 @@
           }
         ]
       },
-      "title": "Number of companies conducting a Common Good Balance in Treptow-Köpenick"
+      "title": "Proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law"
     },
     {
       "path": "4-5-1/data.csv",
@@ -1543,7 +1543,7 @@
           }
         ]
       },
-      "title": "Project participants of the project \"Environmental School in Europe - International Sustainability School“"
+      "title": "Parity indices (female/male, rural/urban, bottom/top wealth quintile and others such as disability status, indigenous peoples and conflict-affected, as data become available) for all education indicators on this list that can be disaggregated"
     },
     {
       "path": "11-1-1/data.csv",
@@ -1571,7 +1571,7 @@
             "constraints": {
               "enum": [
                 "",
-                "Total",
+                "data.tot",
                 "fLotte kommunal",
                 "fLotte nicht-kommunal"
               ]
@@ -1580,7 +1580,7 @@
           }
         ]
       },
-      "title": "Number of cargo bikes that can be borrowed free of charge in the district"
+      "title": "Proportion of urban population living in slums, informal settlements or inadequate housing"
     },
     {
       "path": "5-1-1/data.csv",
@@ -1616,7 +1616,7 @@
           }
         ]
       },
-      "title": "Number of schools participating in the project day"
+      "title": "Whether or not legal frameworks are in place to promote, enforce and monitor equality and non‐discrimination on the basis of sex"
     },
     {
       "path": "1-1-1/data.csv",
@@ -1652,7 +1652,7 @@
           }
         ]
       },
-      "title": "Number of people using the social assistance portal"
+      "title": "Proportion of the population living below the international poverty line by sex, age, employment status and geographic location (urban/rural)"
     },
     {
       "path": "8-5-1/data.csv",
@@ -1681,15 +1681,15 @@
               "enum": [
                 "",
                 "Gender Pay Gap",
-                "Men",
-                "Women"
+                "data.m",
+                "data.w"
               ]
             },
-            "title": "Sex"
+            "title": "data.sex"
           }
         ]
       },
-      "title": "Gross hourly earnings and earnings gaps between women and men (Gender Pay Gap unadjusted)"
+      "title": "Average hourly earnings of employees, by sex, age, occupation and persons with disabilities"
     },
     {
       "path": "15-4-1/data.csv",
@@ -1725,7 +1725,7 @@
           }
         ]
       },
-      "title": "To be defined"
+      "title": "Coverage by protected areas of important sites for mountain biodiversity"
     },
     {
       "path": "11-2-1/data.csv",
@@ -1790,7 +1790,7 @@
           }
         ]
       },
-      "title": "Number of pick-up points for community-supported agriculture (CSA) products"
+      "title": "Proportion of population that has convenient access to public transport, by sex, age and persons with disabilities"
     },
     {
       "path": "12-2-1/data.csv",
@@ -1814,7 +1814,7 @@
           }
         ]
       },
-      "title": "Number of parishes that are part of the Fairtrade Town campaign"
+      "title": "Material footprint, material footprint per capita, and material footprint per GDP"
     },
     {
       "path": "9-3-1/data.csv",
@@ -1851,11 +1851,11 @@
                 "50 Mbit/s"
               ]
             },
-            "title": "Availability"
+            "title": "data.availability"
           }
         ]
       },
-      "title": "Broadband availability Mbit/s in %."
+      "title": "Proportion of small-scale industries in total industry value added"
     },
     {
       "path": "7-3-3/data.csv",
@@ -1879,7 +1879,7 @@
           }
         ]
       },
-      "title": "Solar thermal energy - Total installations in the district"
+      "title": "global_indicators.7-3-3-title"
     },
     {
       "path": "8-3-2/data.csv",
@@ -1915,7 +1915,7 @@
           }
         ]
       },
-      "title": "Proportion of employees with immigration history in management positions in the local administration"
+      "title": "global_indicators.8-3-2-title"
     },
     {
       "path": "3-2-1/data.csv",
@@ -1943,17 +1943,17 @@
             "constraints": {
               "enum": [
                 "",
-                "High",
-                "Low",
-                "Medium",
-                "No values"
+                "data.high",
+                "data.low",
+                "data.medium",
+                "data.no"
               ]
             },
-            "title": "Relative noise pollution"
+            "title": "data.noise"
           }
         ]
       },
-      "title": "Relative noise pollution in Treptow-Köpenick (Environmental justice)"
+      "title": "Under‐5 mortality rate"
     },
     {
       "path": "15-1-1/data.csv",
@@ -1981,15 +1981,15 @@
             "constraints": {
               "enum": [
                 "",
-                "Yes-Answers",
-                "No-Answers"
+                "data.ja",
+                "data.nein"
               ]
             },
-            "title": "Answers"
+            "title": "data.antworten"
           }
         ]
       },
-      "title": "Municipal Climate Adaptation Index"
+      "title": "Forest area as a proportion of total land area"
     },
     {
       "path": "14-2-1/data.csv",
@@ -2025,7 +2025,7 @@
           }
         ]
       },
-      "title": "Number of residents attending ranger consultation hours"
+      "title": "Number of countries using ecosystem-based approaches to managing marine areas"
     },
     {
       "path": "14-3-1/data.csv",
@@ -2061,7 +2061,7 @@
           }
         ]
       },
-      "title": "To be defined"
+      "title": "Average marine acidity (pH) measured at agreed suite of representative sampling stations"
     },
     {
       "path": "5-4-1/data.csv",
@@ -2085,7 +2085,7 @@
           }
         ]
       },
-      "title": "Proportion of women in management positions in the public sector"
+      "title": "Proportion of time spent on unpaid domestic and care work, by sex, age and location"
     },
     {
       "path": "5-5-1/data.csv",
@@ -2113,16 +2113,16 @@
             "constraints": {
               "enum": [
                 "",
-                "Men",
-                "Total",
-                "Women"
+                "data.m",
+                "data.tot",
+                "data.w"
               ]
             },
-            "title": "Sex"
+            "title": "data.sex"
           }
         ]
       },
-      "title": "Proportion of women in the Treptow-Köpenick district assembly (BVV)"
+      "title": "Proportion of seats held by women in (a) national parliaments and (b) local governments"
     },
     {
       "path": "4-3-1/data.csv",
@@ -2158,7 +2158,7 @@
           }
         ]
       },
-      "title": "Number of adult education center (VHS) courses on global learning, education for sustainable development (ESD) and SDGs"
+      "title": "Participation rate of youth and adults in formal and non-formal education and training in the previous 12 months, by sex"
     },
     {
       "path": "3-3-1/data.csv",
@@ -2186,16 +2186,16 @@
             "constraints": {
               "enum": [
                 "",
-                "High",
-                "Low",
-                "Medium"
+                "data.high",
+                "data.low",
+                "data.medium"
               ]
             },
-            "title": "Relative air pollution"
+            "title": "data.air"
           }
         ]
       },
-      "title": "Relative air pollution in Treptow-Köpenick (Environmental justice)"
+      "title": "Number of new HIV infections per 1,000 uninfected population, by sex, age and key populations"
     },
     {
       "path": "11-5-2/data.csv",
@@ -2223,18 +2223,18 @@
             "constraints": {
               "enum": [
                 "",
-                "Green and recreational facilities (incl. playgrounds)",
-                "Cemeteries",
-                "Allotment gardens",
-                "Street green",
-                "Total public green spaces"
+                "data.erhol",
+                "data.friedh",
+                "data.kleing",
+                "data.strgr",
+                "data.sumgr"
               ]
             },
-            "title": "Public green spaces"
+            "title": "data.gruen"
           }
         ]
       },
-      "title": "Total supply of public green spaces"
+      "title": "Direct economic loss in relation to global GDP, damage to critical infrastructure and number of disruptions to basic services, attributed to disasters"
     },
     {
       "path": "8-4-1/data.csv",
@@ -2258,7 +2258,7 @@
           }
         ]
       },
-      "title": "Number of municipal institutions in Treptow-Köpenick that have a valid \"Common Good Balance\" certificate"
+      "title": "Material footprint, material footprint per capita, and material footprint per GDP"
     },
     {
       "path": "17-5-1/data.csv",
@@ -2294,7 +2294,7 @@
           }
         ]
       },
-      "title": "To be defined"
+      "title": "Number of countries that adopt and implement investment promotion regimes for developing countries, including the least developed countries"
     },
     {
       "path": "7-3-2/data.csv",
@@ -2318,7 +2318,7 @@
           }
         ]
       },
-      "title": "Photovoltaics - Electricity supply in the district"
+      "title": "global_indicators.7-3-2-title"
     },
     {
       "path": "9-2-1/data.csv",
@@ -2346,15 +2346,15 @@
             "constraints": {
               "enum": [
                 "",
-                "Indoor",
-                "Outdoor"
+                "data.indoor",
+                "data.outdoor"
               ]
             },
-            "title": "Access Points"
+            "title": "data.zug"
           }
         ]
       },
-      "title": "Number of public facilities with free WLAN access"
+      "title": "Manufacturing value added as a proportion of GDP and per capita"
     },
     {
       "path": "1-3-1/data.csv",
@@ -2378,7 +2378,7 @@
           }
         ]
       },
-      "title": "At-risk-of poverty rate in Treptow-Köpenick"
+      "title": "Proportion of population covered by social protection floors/systems, by sex, distinguishing children, unemployed persons, older persons, persons with disabilities, pregnant women, newborns, work-injury victims and the poor and the vulnerable"
     },
     {
       "path": "16-3-1/data.csv",
@@ -2406,23 +2406,23 @@
             "constraints": {
               "enum": [
                 "",
-                "Ableism",
-                "Anti-Semitism",
-                "Political opponents",
-                "LGBTIQ* hostility",
-                "Racism",
-                "Right-wing and extreme right-wing self-portrayal",
-                "Social-chauvinism",
-                "Total",
-                "NS trivialization and glorification",
-                "Campaign"
+                "data.ableism",
+                "data.antisem",
+                "data.polgeg",
+                "data.qhostility",
+                "data.racism",
+                "data.rightwing",
+                "data.sozch",
+                "data.tot",
+                "data.trivil",
+                "data.wahlk"
               ]
             },
-            "title": "Type of incident"
+            "title": "data.incident"
           }
         ]
       },
-      "title": "Number of racist, anti-Semitic, homophobic and right-wing extremist incidents per year in Treptow-Köpenick"
+      "title": "Proportion of victims of violence in the previous 12 months who reported their victimization to competent authorities or other officially recognized conflict resolution mechanisms"
     },
     {
       "path": "3-3-2/data.csv",
@@ -2450,16 +2450,16 @@
             "constraints": {
               "enum": [
                 "",
-                "Ozone 8-hour values",
-                "Ozone hourly values",
-                "Particulates (PM10)"
+                "data.ozonacht",
+                "data.ozonst",
+                "data.pm"
               ]
             },
-            "title": "Air quality"
+            "title": "data.luftg"
           }
         ]
       },
-      "title": "Air pollution limits in Treptow-Köpenick"
+      "title": "Tuberculosis incidence per 100,000 population"
     },
     {
       "path": "11-1-2/data.csv",
@@ -2483,7 +2483,7 @@
           }
         ]
       },
-      "title": "Number of cargo bike rentals"
+      "title": "global_indicators.11-1-2-title"
     },
     {
       "path": "7-2-1/data.csv",
@@ -2507,7 +2507,7 @@
           }
         ]
       },
-      "title": "Number of photovoltaic systems on district-owned buildings"
+      "title": "Renewable energy share in the total final energy consumption"
     },
     {
       "path": "16-4-1/data.csv",
@@ -2557,11 +2557,11 @@
                 "Schmöckwitz"
               ]
             },
-            "title": "District region"
+            "title": "data.bezirk"
           }
         ]
       },
-      "title": "Number of structures for citizen participation and actor networking in the district region profiles"
+      "title": "Total value of inward and outward illicit financial flows (in current United States dollars)"
     },
     {
       "path": "17-3-2/data.csv",
@@ -2585,7 +2585,7 @@
           }
         ]
       },
-      "title": "Community projects and partnerships"
+      "title": "Volume of remittances (in United States dollars) as a proportion of total GDP"
     },
     {
       "path": "10-1-1/data.csv",
@@ -2621,7 +2621,7 @@
           }
         ]
       },
-      "title": "Proportion of multilingual information materials"
+      "title": "Growth rates of household expenditure or income per capita among the bottom 40 per cent of the population and the total population"
     },
     {
       "path": "15-3-1/data.csv",
@@ -2649,16 +2649,16 @@
             "constraints": {
               "enum": [
                 "",
-                "Nature reserves",
-                "Protected landscape areas",
-                "Total"
+                "data.nat",
+                "data.protect",
+                "data.tot"
               ]
             },
-            "title": "Area"
+            "title": "data.area"
           }
         ]
       },
-      "title": "Nature reserves and protected landscape areas (area in ha)"
+      "title": "Proportion of land that is degraded over total land area"
     },
     {
       "path": "12-2-2/data.csv",
@@ -2676,8 +2676,8 @@
             "constraints": {
               "enum": [
                 "",
-                "Certificate",
-                "No Certificate"
+                "data.zertFG",
+                "data.zertK"
               ]
             },
             "title": "Status"
@@ -2694,7 +2694,7 @@
           }
         ]
       },
-      "title": "Number of parishes with \"Fair Parish\" certification in the district"
+      "title": "Domestic material consumption, domestic material consumption per capita, and domestic material consumption per GDP"
     },
     {
       "path": "13-1-1/data.csv",
@@ -2718,7 +2718,7 @@
           }
         ]
       },
-      "title": "Full-time equivalents for climate protection management"
+      "title": "Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population"
     },
     {
       "path": "7-2-2/data.csv",
@@ -2742,7 +2742,7 @@
           }
         ]
       },
-      "title": "Electricity generation on district-owned buildings (kWh/year)"
+      "title": "global_indicators.7-2-2-title"
     },
     {
       "path": "3-1-1/data.csv",
@@ -2766,7 +2766,7 @@
           }
         ]
       },
-      "title": "City cycling - Number of people participating"
+      "title": "Maternal mortality ratio"
     },
     {
       "path": "16-2-1/data.csv",
@@ -2790,7 +2790,7 @@
           }
         ]
       },
-      "title": "Number of interfaith events per year"
+      "title": "Proportion of children aged 1–17 years who experienced any physical punishment and/or psychological aggression by caregivers in the past month"
     }
   ]
 }

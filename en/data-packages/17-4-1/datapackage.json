@@ -26,14 +26,14 @@
             "constraints": {
               "enum": [
                 "",
-                "Parish projects",
-                "School partnerships",
-                "City partnerships",
-                "Fair Trade Shops",
-                "Civil society projects"
+                "data.gemeindep",
+                "data.schulp",
+                "data.stapa",
+                "data.weltl",
+                "data.zivip"
               ]
             },
-            "title": "One-World-Projects"
+            "title": "data.einewelt"
           }
         ]
       }
@@ -41,5 +41,5 @@
   ],
   "profile": "data-package",
   "name": "17-4-1",
-  "title": "One world projects and partnerships in the Treptow-Köpenick district"
+  "title": "Debt service as a proportion of exports of goods and services"
 }
