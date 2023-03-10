@@ -50,7 +50,7 @@ jobs:
         sleep 240
     - name: Rebuild site
       run: |
-        curl -X POST https://api.github.com/repos/SDGs-Treptow-Koepenick/SDGTK/dispatches \
+        curl -X POST https://api.github.com/repos/DrJannisHoek/sdg-enz-staging-site/dispatches \
         -H "Accept: application/vnd.github.everest-preview+json" \
         -H "Authorization: token ${{secrets.token}}" \
         --data '{"event_type": "rebuild-staging"}'
