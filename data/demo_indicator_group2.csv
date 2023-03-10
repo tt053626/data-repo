@@ -1,0 +1,11 @@
+Year,Region,Value
+2015,Ingolstadt,1
+2015,Bayern,3
+2015,Ingolstadt,1
+2016,Bayern,4
+
+
+# the name of group column can be changed to any names eg. Region
+
+# IMPORTANT! For decimals use "." instead of ","
+# because "," is used to separate columns here!

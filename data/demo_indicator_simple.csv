@@ -1,0 +1,10 @@
+Year,Value
+2019,1
+2020,10
+2021,100
+2022,1000
+
+# IMPORTANT! For decimals use "." instead of ","
+# because "," is used to separate columns here!
+
+# Make sure there is no empty space between comma
