@@ -1,61 +1,41 @@
 Year,Region,gruppe.beschaeftigt,Value
-2007,Enzkreis,Beschäftigungsquote,0
-2008,Enzkreis,Beschäftigungsquote,0
-2009,Enzkreis,Beschäftigungsquote,0
-2010,Enzkreis,Beschäftigungsquote,0
-2011,Enzkreis,Beschäftigungsquote,0
-2012,Enzkreis,Beschäftigungsquote,0
-2013,Enzkreis,Beschäftigungsquote,0
-2014,Enzkreis,Beschäftigungsquote,0
-2015,Enzkreis,Beschäftigungsquote,0
-2016,Enzkreis,Beschäftigungsquote,0
-2017,Enzkreis,Beschäftigungsquote,0
-2018,Enzkreis,Beschäftigungsquote,0
-2019,Enzkreis,Beschäftigungsquote,0
-2020,Enzkreis,Beschäftigungsquote,0
-2021,Enzkreis,Beschäftigungsquote,0
-2007,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2008,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2009,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2010,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2011,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2012,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2013,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2014,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2015,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2016,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2017,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2018,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2019,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2020,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2021,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2007,Land BW,Beschäftigungsquote,0
-2008,Land BW,Beschäftigungsquote,0
-2009,Land BW,Beschäftigungsquote,0
-2010,Land BW,Beschäftigungsquote,0
-2011,Land BW,Beschäftigungsquote,0
-2012,Land BW,Beschäftigungsquote,0
-2013,Land BW,Beschäftigungsquote,0
-2014,Land BW,Beschäftigungsquote,0
-2015,Land BW,Beschäftigungsquote,0
-2016,Land BW,Beschäftigungsquote,0
-2017,Land BW,Beschäftigungsquote,0
-2018,Land BW,Beschäftigungsquote,0
-2019,Land BW,Beschäftigungsquote,0
-2020,Land BW,Beschäftigungsquote,0
-2021,Land BW,Beschäftigungsquote,0
-2007,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
-2008,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
-2009,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
-2010,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
-2011,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
-2012,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
-2013,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
-2014,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
-2015,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
-2016,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
-2017,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
-2018,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
-2019,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
-2020,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
-2021,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
+2011,Enzkreis,Vorzeitige Sterblichkeit - Frauen,0.71
+2012,Enzkreis,Vorzeitige Sterblichkeit - Frauen,0.58
+2013,Enzkreis,Vorzeitige Sterblichkeit - Frauen,0.76
+2014,Enzkreis,Vorzeitige Sterblichkeit - Frauen,0.67
+2015,Enzkreis,Vorzeitige Sterblichkeit - Frauen,0.70
+2016,Enzkreis,Vorzeitige Sterblichkeit - Frauen,0.68
+2017,Enzkreis,Vorzeitige Sterblichkeit - Frauen,0.60
+2018,Enzkreis,Vorzeitige Sterblichkeit - Frauen,0.71
+2019,Enzkreis,Vorzeitige Sterblichkeit - Frauen,0.71
+2020,Enzkreis,Vorzeitige Sterblichkeit - Frauen,0.87
+2011,Enzkreis,Vorzeitige Sterblichkeit - Männer,1.25
+2012,Enzkreis,Vorzeitige Sterblichkeit - Männer,1.08
+2013,Enzkreis,Vorzeitige Sterblichkeit - Männer,1.09
+2014,Enzkreis,Vorzeitige Sterblichkeit - Männer,1.03
+2015,Enzkreis,Vorzeitige Sterblichkeit - Männer,1.12
+2016,Enzkreis,Vorzeitige Sterblichkeit - Männer,1.09
+2017,Enzkreis,Vorzeitige Sterblichkeit - Männer,1.11
+2018,Enzkreis,Vorzeitige Sterblichkeit - Männer,1.21
+2019,Enzkreis,Vorzeitige Sterblichkeit - Männer,1.32
+2020,Enzkreis,Vorzeitige Sterblichkeit - Männer,1.33
+2011,Land BW,Vorzeitige Sterblichkeit - Frauen,0.71
+2012,Land BW,Vorzeitige Sterblichkeit - Frauen,0.68
+2013,Land BW,Vorzeitige Sterblichkeit - Frauen,0.71
+2014,Land BW,Vorzeitige Sterblichkeit - Frauen,0.68
+2015,Land BW,Vorzeitige Sterblichkeit - Frauen,0.71
+2016,Land BW,Vorzeitige Sterblichkeit - Frauen,0.73
+2017,Land BW,Vorzeitige Sterblichkeit - Frauen,0.71
+2018,Land BW,Vorzeitige Sterblichkeit - Frauen,0.73
+2019,Land BW,Vorzeitige Sterblichkeit - Frauen,0.71
+2020,Land BW,Vorzeitige Sterblichkeit - Frauen,0.69
+2011,Land BW,Vorzeitige Sterblichkeit - Männer,1.26
+2012,Land BW,Vorzeitige Sterblichkeit - Männer,1.24
+2013,Land BW,Vorzeitige Sterblichkeit - Männer,1.24
+2014,Land BW,Vorzeitige Sterblichkeit - Männer,1.20
+2015,Land BW,Vorzeitige Sterblichkeit - Männer,1.24
+2016,Land BW,Vorzeitige Sterblichkeit - Männer,1.30
+2017,Land BW,Vorzeitige Sterblichkeit - Männer,1.26
+2018,Land BW,Vorzeitige Sterblichkeit - Männer,1.27
+2019,Land BW,Vorzeitige Sterblichkeit - Männer,1.26
+2020,Land BW,Vorzeitige Sterblichkeit - Männer,1.28
