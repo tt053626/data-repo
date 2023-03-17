@@ -1,89 +1,87 @@
-1.1 SGB II-/SGB XII-Quote
-Indikator 1.2 a) Armut bei Kindern und Jugendlichen
-Indikator 1.2 b) Armut bei Älteren (> 65 Jahre)
+1-1-title: SGB II-/SGB XII-Quote
+1-2-a-title: Armut bei Kindern und Jugendlichen
+1-2-b-title: Armut bei Älteren (> 65 Jahre)
 2-1-title: Kinder mit Fehlernährung
-2-2-title: Ökologische Landwirtschaft
-2-3-title: Stickstoffüberschuss
-3-1-title: Wohnungsnahe Grundversorgung - Hausarzt
+2-2-title: Landwirtschaftliche Betriebsführung
+2-3-title: Stickstoffüberschuss aus der Landwirtschaft
+3-1-title: Wohnungsnahe Grundversorgung - Psychotherapeuten, Haus- und Fachärzte
 3-2-title: Krankenhausversorgung
-3-3-title: Krankenhausbetten in der Psychiatrie
-3-4-title: Vorzeitige Sterblichkeit
-3-5-a-title: Alkoholbedingte Krankenhausaufenthalte von Jugendlichen
-3-6-title: Selbsttötung und Selbstschädigung mit Todesfolge
-3-7-title: Plätze in Pflegeheimen
-3-8-title: Personal in Pflegeheimen
-3-9-title: Personal in Pflegediensten
-3-10-title: Masern-Infektionen
-3-11-title: Luftqualität
-4-1-title: Betreuungsquote von Kleinkindern (unter 3-Jährige)
-4-2-title: Betreuungsquote von Kindern (3- bis 6-Jährige)
-4-3-title: Schulabbrecherquote
-4-4-title: Schulabschluss
-4-5-title: Auszubildende
-4-6-title: Kooperationsquote
-4-7-title: Vermittlungsquote (erster Arbeitsmarkt)
-4-8-title: Exklusionsquote
-5-1-a-title: Vollzeitbeschäftigungsquoten von Frauen und Männern
-5-1-b-title: Anteil der teilzeitbeschäftigten Frauen
-5-2-title: Relative Frauenarmut
+3-3-title: Vorzeitige Sterblichkeit
+3-4-title: Alkoholbedingte Krankenhausaufenthalte von Jugendlichen
+3-5-a-title: Todesfälle nach psychischen und Verhaltensstörungen
+3-5-b-title: Selbsttötung und Selbstschädigung mit Todesfolge
+3-5-c-title: Sterbefälle nach bösartiger Neubildung (Primärtumore)
+3-6-a-title: Pflegebedürftige und benötigte Pflegeleistungen
+3-6-b-title: Ambulante Pflegeleistungen
+3-6-c-title: Teilstationäre und stationäre Pflegeleistungen
+3-7-title: Maserninfektionen
+3-8-a-title: "Luftqualität: Feinstaub- (PM10) / Abriebemissionen"
+3-8-b-title: "Luftqualität: Stickstoffoxid-Emissionen (NOX)"
+4-1-a-title: Betreuungsquote von Kleinkindern - unter 3 Jahre
+4-1-b-title: Betreuungsquote von Kindern - 3 Jahre bis Schuleintritt
+4-2-title: Schulabbrecherquote
+4-3-title: Schulabschlüsse
+4-4-title: Auszubildende (nach Sektoren)
+4-5-title: Bildungswanderungen
+4-6-title: Familienwanderungen
+4-7-title: Integrative Kindertageseinrichtungen
+4-8-title: Kooperationen und Inklusion
+5-1-title: Verhältnis der Beschäftigungsquote von Frauen und Männern
+5-2-title: Medianeinkommen und Verdienstabstand (Gender Pay Gap)
+5-3-title: Relative Armut von Frauen und Männern
+5-4-title: Politische Partizipation von Frauen
 6-1-title: Ausweisung von Wasserschutzgebieten
-7-1-a-title: Endenergieverbrauch LRA
-7-1-b-title: Endenergieverbrauch Enzkreis (gesamt)
-7-1-c-title: Jährliche Einsparung/ Absenkpfad
-7-2-a-title: Erneuerbare Energien – Anteil am Endenergieverbrauch
-7-2-b-title: Erneuerbare Energien – Zubaurate (Enzkreis)
-7-2-c-title: Erneuerbare Energien – Installierte Leistung (Enzkreis)
+6-2-title: Wiederherstellung der Durchgängigkeit in den Fließgewässern
+7-1-a-title: Endenergieverbrauch der Liegenschaften des Landratsamts Enzkreis
+7-1-b-title: Endenergieverbrauch im Enzkreis
+7-2-title: Anteil erneuerbarer Energiequellen am Stromverbrauch im Enzkreis
+7-3-title: Ladepunkte im Enzkreis
 8-1-title: Bruttoinlandsprodukt
-8-2-a-title: Arbeitssuchende (gesamt)
-8-2-b-title: Arbeitssuchende Frauen
-8-2-c-title: Jugendarbeitslosigkeit (15- bis 25-Jährige)
-8-2-d-title: Arbeitslosigkeit bei über 55-Jährigen
-8-3-a-title: Langzeitarbeitslose (gesamt)
-8-3-b-title: Frauenlangzeitarbeitslosigkeit
-8-3-c-title: Männerlangzeitarbeitslosigkeit
-8-4-title: Beschäftigungsquote
-8-5-title: Erwerbsaufstocker
+8-2-title: Beschäftigungsquote
+8-3-title: Langzeitarbeitslosenquote
+8-4-title: Erwerbsaufstocker
 9-1-title: Existenzgründungen
-9-2-title: Innovationsindex
-9-3-title: Hochqualifizierte
-10-1-a-title: Einkommensverteilung - Haushalte mit niedrigem Einkommen
-10-1-b-title: Einkommensverteilung - Haushalte mit mittlerem Einkommen
-10-1-c-title: Einkommensverteilung - Haushalte mit hohem Einkommen
-10-2-title: Relative Beschäftigungsquote von AusländerInnen
-10-3-title: Relative Armutsquote bei AusländerInnen
-10-4-title: Relative Schulabbrecherquote von AusländerInnen
-10-5-title: Einbürgerungen
-11-1-title: Mietpreise
-11-2-title: Flächenremanenz
-11-3-title: Wohnfläche
-11-4-title: Modal Split
-11-5-title: Kfz-Dichte
-11-6-title: Verunglückte im Straßenverkehr
-11-7-a-title: Flächeninanspruchnahme - Anteil Siedlungs- und Verkehrsfläche
-11-7-b-title: Flächeninanspruchnahme - Zuwachs gegenüber Vorjahr
-11-7-c-title: Flächeninanspruchnahme - Nutzungsintensität je EinwohnerInnen
-11-8-title: Naherholungsfläche
-12-1-a-title: Trinkwasserabgabe – Verbrauch (Haushalte und Kleingewerbe)
-12-1-b-title: Trinkwasserabgabe – Leitungsverluste
-12-2-title: Abfallmenge
-12-3-title: Unterstützer der WIN-Charta des Landes Baden-Württemberg
-12-4-title: Anteil von Recyclingpapier in der Verwaltung
-12-5-title: Fairtrade-Towns im Landkreis
-13-1-a-title: Treibhausgas-Emissionen – Landratsamt
-13-1-b-title: Treibhausgas-Emissionen – Enzkreis gesamt
-13-1-c-title: Treibhausgas-Emissionen – jährliche Einsparung
-13-1-d-title: Treibhausgas-Emissionen - Erreichen der Klimaziele
-13-2-a-title: Platzierung im European Energy Award – Ergebnis %
-13-2-b-title: Platzierung im European Energy Award – Vergleich BW, Bund
+9-2-title: Unternehmensinsolvenzen
+9-3-title: Innovationsindex
+9-4-title: Hochqualifizierte
+9-5-a-title: Beschäftigtenanteil je Sektor
+9-5-b-title: Beschäftigungsanteil in unternehmensorientierten Dienstleistungsberufen
+9-6-a-title: Breitbandversorgung (private Haushalte) - Anschlussgrad
+9-6-b-title: Breitbandversorgung (private Haushalte) –Hausanschlüsse und Vorstreckungen im Zweckverband
+10-1-title: Einkommensverteilung
+10-2-title: Relative Beschäftigungsquote bei Ausländern/-innen
+10-3-title: Relative Schulabbrecherquote von Ausländern/-innen
+10-4-title: Einbürgerungen
+11-1-a-title: Mietpreisentwicklung
+11-1-b-title: Preisentwicklung für Bauland
+11-2-title: Neubauaktivität
+11-3-title: Wohnflächeninanspruchnahme pro Person
+11-4-title: Fertiggestellte Wohngebäude mit erneuerbarer Heizenergie
+11-5-title: Flächeninanspruchnahme
+11-6-title: Kfz-Dichte
+11-7-title: Modal Split
+11-8-title: Verunglückte im Straßenverkehr
+11-9-title: Öffentlicher Personennahverkehr
+12-1-title: Trinkwasserabgabe und -verbrauch
+12-2-title: Abfallaufkommen
+12-3-title: Unterstützer der WIN-Charta
+12-4-title: Fairtrade Towns im Enzkreis
+12-5-title: Recyclingpapier in der Kreisverwaltung
+12-6-title: Nachhaltige Antriebstechniken im Verwaltungsfuhrpark
+13-1-a-title: Treibhausgasemissionen – Landratsamt Enzkreis (mit Ökostrom und PV-Einspeisung)
+13-1-b-title: Treibhausgasemissionen – Landratsamt Enzkreis (mit Bundesstrommix)
+13-2-title: Treibhausgasemissionen – Enzkreis (Landkreis)
+13-3-title: Unterstützer des Klimaschutzpaktes Baden-Württemberg
 14-1-title: Abwasserbehandlung in Kläranlagen
-15-1-title: Naturschutzflächen
-15-2-title: Altlasten mit Handlungsbedarf (Flächenanzahl)
-15-3-title: Landschaftsqualität (Hemerobie-Index)
-15-4-title: Unzerschnittene Freiraumflächen > 50 km2
-15-5-title: Streuobstwiesenfläche
+15-1-title: Landschaftsqualität (Hemerobie-Index)
+15-2-title: Unzerschnittene Freiraumflächen
+15-3-title: Streuobstwiesenfläche
+15-4-title: Naturschutzflächen
+15-5-title: Schutzgebietsflächen im Wald
 16-1-title: Straftaten
-16-2-title: Gesamtverschuldung
-16-3-title: Wahlbeteiligung bei Kommunalwahlen
-17-1-a-title: Kommunale Partnerschaften (Aufgewendete Mittel)
-17-1-b-title: Kommunale Partnerschaften (Anteil Fördermittel)
-17-2-title: Entwicklungspolitische Projekte
+16-2-title: Realisiertes Steuerpotenzial je Einwohner
+16-3-title: Ordentliche Aufwendungen und Verschuldung im Kernhaushalt
+16-4-title: Wahlbeteiligung bei Kreistagswahlen
+17-1-title: Entwicklungspolitische Projekte
+17-2-title: Ausgaben für kommunale Entwicklungsleistung
+17-3-title: Zeichnungskommunen der Agenda 2030 im Enzkreis
