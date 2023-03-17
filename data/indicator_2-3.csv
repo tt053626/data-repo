@@ -1,61 +1,21 @@
 Year,Region,gruppe.beschaeftigt,Value
-2007,Enzkreis,Beschäftigungsquote,0
-2008,Enzkreis,Beschäftigungsquote,0
-2009,Enzkreis,Beschäftigungsquote,0
-2010,Enzkreis,Beschäftigungsquote,0
-2011,Enzkreis,Beschäftigungsquote,0
-2012,Enzkreis,Beschäftigungsquote,0
-2013,Enzkreis,Beschäftigungsquote,0
-2014,Enzkreis,Beschäftigungsquote,0
-2015,Enzkreis,Beschäftigungsquote,0
-2016,Enzkreis,Beschäftigungsquote,0
-2017,Enzkreis,Beschäftigungsquote,0
-2018,Enzkreis,Beschäftigungsquote,0
-2019,Enzkreis,Beschäftigungsquote,0
-2020,Enzkreis,Beschäftigungsquote,0
-2021,Enzkreis,Beschäftigungsquote,0
-2007,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2008,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2009,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2010,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2011,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2012,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2013,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2014,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2015,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2016,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2017,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2018,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2019,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2020,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2021,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2007,Land BW,Beschäftigungsquote,0
-2008,Land BW,Beschäftigungsquote,0
-2009,Land BW,Beschäftigungsquote,0
-2010,Land BW,Beschäftigungsquote,0
-2011,Land BW,Beschäftigungsquote,0
-2012,Land BW,Beschäftigungsquote,0
-2013,Land BW,Beschäftigungsquote,0
-2014,Land BW,Beschäftigungsquote,0
-2015,Land BW,Beschäftigungsquote,0
-2016,Land BW,Beschäftigungsquote,0
-2017,Land BW,Beschäftigungsquote,0
-2018,Land BW,Beschäftigungsquote,0
-2019,Land BW,Beschäftigungsquote,0
-2020,Land BW,Beschäftigungsquote,0
-2021,Land BW,Beschäftigungsquote,0
-2007,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
-2008,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
-2009,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
-2010,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
-2011,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
-2012,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
-2013,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
-2014,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
-2015,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
-2016,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
-2017,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
-2018,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
-2019,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
-2020,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
-2021,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
+2010,Enzkreis,Stickstoffüberschuss aus der Landwirtschaft [kg N/ha],48
+2011,Enzkreis,Stickstoffüberschuss aus der Landwirtschaft [kg N/ha],58
+2012,Enzkreis,Stickstoffüberschuss aus der Landwirtschaft [kg N/ha],47
+2013,Enzkreis,Stickstoffüberschuss aus der Landwirtschaft [kg N/ha],52
+2014,Enzkreis,Stickstoffüberschuss aus der Landwirtschaft [kg N/ha],39
+2015,Enzkreis,Stickstoffüberschuss aus der Landwirtschaft [kg N/ha],58
+2016,Enzkreis,Stickstoffüberschuss aus der Landwirtschaft [kg N/ha],53
+2017,Enzkreis,Stickstoffüberschuss aus der Landwirtschaft [kg N/ha],47
+2018,Enzkreis,Stickstoffüberschuss aus der Landwirtschaft [kg N/ha],67
+2019,Enzkreis,Stickstoffüberschuss aus der Landwirtschaft [kg N/ha],43
+2010,Land BW,Stickstoffüberschuss aus der Landwirtschaft [kg N/ha],59
+2011,Land BW,Stickstoffüberschuss aus der Landwirtschaft [kg N/ha],69
+2012,Land BW,Stickstoffüberschuss aus der Landwirtschaft [kg N/ha],58
+2013,Land BW,Stickstoffüberschuss aus der Landwirtschaft [kg N/ha],64
+2014,Land BW,Stickstoffüberschuss aus der Landwirtschaft [kg N/ha],50
+2015,Land BW,Stickstoffüberschuss aus der Landwirtschaft [kg N/ha],71
+2016,Land BW,Stickstoffüberschuss aus der Landwirtschaft [kg N/ha],66
+2017,Land BW,Stickstoffüberschuss aus der Landwirtschaft [kg N/ha],60
+2018,Land BW,Stickstoffüberschuss aus der Landwirtschaft [kg N/ha],81
+2019,Land BW,Stickstoffüberschuss aus der Landwirtschaft [kg N/ha],57
