@@ -1,17 +1,28 @@
-Year,Region,Category,Value
+Year,Region,grupp.armut,Value
 2010,Enzkreis,Kinderarmut,4.7
 2011,Enzkreis,Kinderarmut,4.2
 2012,Enzkreis,Kinderarmut,4.3
 2013,Enzkreis,Kinderarmut,4.3
 2014,Enzkreis,Kinderarmut,4.6
-2015,Enzkreis,Kinderarmut,5.0
+2015,Enzkreis,Kinderarmut,5
 2016,Enzkreis,Kinderarmut,5.3
 2017,Enzkreis,Kinderarmut,5.2
 2018,Enzkreis,Kinderarmut,6.4
 2019,Enzkreis,Kinderarmut,5.4
 2020,Enzkreis,Kinderarmut,5.3
+2010,Enzkreis,Jugendarmut,
+2011,Enzkreis,Jugendarmut,
+2012,Enzkreis,Jugendarmut,
+2013,Enzkreis,Jugendarmut,
+2014,Enzkreis,Jugendarmut,
+2015,Enzkreis,Jugendarmut,
+2016,Enzkreis,Jugendarmut,
+2017,Enzkreis,Jugendarmut,
+2018,Enzkreis,Jugendarmut,
+2019,Enzkreis,Jugendarmut,
+2020,Enzkreis,Jugendarmut,
 2010,Land BW,Kinderarmut,8.6
-2011,Land BW,Kinderarmut,8.0
+2011,Land BW,Kinderarmut,8
 2012,Land BW,Kinderarmut,8.1
 2013,Land BW,Kinderarmut,8.2
 2014,Land BW,Kinderarmut,8.4
@@ -21,3 +32,14 @@ Year,Region,Category,Value
 2018,Land BW,Kinderarmut,8.9
 2019,Land BW,Kinderarmut,7.9
 2020,Land BW,Kinderarmut,7.8
+2010,Land BW,Jugendarmut,
+2011,Land BW,Jugendarmut,
+2012,Land BW,Jugendarmut,
+2013,Land BW,Jugendarmut,
+2014,Land BW,Jugendarmut,
+2015,Land BW,Jugendarmut,
+2016,Land BW,Jugendarmut,
+2017,Land BW,Jugendarmut,
+2018,Land BW,Jugendarmut,
+2019,Land BW,Jugendarmut,
+2020,Land BW,Jugendarmut,
