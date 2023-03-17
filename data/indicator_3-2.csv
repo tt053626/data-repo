@@ -1,61 +1,22 @@
 Year,Region,gruppe.beschaeftigt,Value
-2007,Enzkreis,Beschäftigungsquote,0
-2008,Enzkreis,Beschäftigungsquote,0
-2009,Enzkreis,Beschäftigungsquote,0
-2010,Enzkreis,Beschäftigungsquote,0
-2011,Enzkreis,Beschäftigungsquote,0
-2012,Enzkreis,Beschäftigungsquote,0
-2013,Enzkreis,Beschäftigungsquote,0
-2014,Enzkreis,Beschäftigungsquote,0
-2015,Enzkreis,Beschäftigungsquote,0
-2016,Enzkreis,Beschäftigungsquote,0
-2017,Enzkreis,Beschäftigungsquote,0
-2018,Enzkreis,Beschäftigungsquote,0
-2019,Enzkreis,Beschäftigungsquote,0
-2020,Enzkreis,Beschäftigungsquote,0
-2021,Enzkreis,Beschäftigungsquote,0
-2007,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2008,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2009,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2010,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2011,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2012,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2013,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2014,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2015,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2016,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2017,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2018,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2019,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2020,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2021,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2007,Land BW,Beschäftigungsquote,0
-2008,Land BW,Beschäftigungsquote,0
-2009,Land BW,Beschäftigungsquote,0
-2010,Land BW,Beschäftigungsquote,0
-2011,Land BW,Beschäftigungsquote,0
-2012,Land BW,Beschäftigungsquote,0
-2013,Land BW,Beschäftigungsquote,0
-2014,Land BW,Beschäftigungsquote,0
-2015,Land BW,Beschäftigungsquote,0
-2016,Land BW,Beschäftigungsquote,0
-2017,Land BW,Beschäftigungsquote,0
-2018,Land BW,Beschäftigungsquote,0
-2019,Land BW,Beschäftigungsquote,0
-2020,Land BW,Beschäftigungsquote,0
-2021,Land BW,Beschäftigungsquote,0
-2007,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
-2008,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
-2009,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
-2010,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
-2011,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
-2012,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
-2013,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
-2014,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
-2015,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
-2016,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
-2017,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
-2018,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
-2019,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
-2020,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
-2021,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
+2013,Enzkreis,Krankenhausbetten je 100 tsd. Einwohner/-innen,175
+2014,Enzkreis,Krankenhausbetten je 100 tsd. Einwohner/-innen,162
+2015,Enzkreis,Krankenhausbetten je 100 tsd. Einwohner/-innen,162
+2016,Enzkreis,Krankenhausbetten je 100 tsd. Einwohner/-innen,163
+2017,Enzkreis,Krankenhausbetten je 100 tsd. Einwohner/-innen,163
+2018,Enzkreis,Krankenhausbetten je 100 tsd. Einwohner/-innen,164
+2019,Enzkreis,Krankenhausbetten je 100 tsd. Einwohner/-innen,167
+2013,Stadt Pforzheim,Krankenhausbetten je 100 tsd. Einwohner/-innen,983
+2014,Stadt Pforzheim,Krankenhausbetten je 100 tsd. Einwohner/-innen,987
+2015,Stadt Pforzheim,Krankenhausbetten je 100 tsd. Einwohner/-innen,968
+2016,Stadt Pforzheim,Krankenhausbetten je 100 tsd. Einwohner/-innen,959
+2017,Stadt Pforzheim,Krankenhausbetten je 100 tsd. Einwohner/-innen,966
+2018,Stadt Pforzheim,Krankenhausbetten je 100 tsd. Einwohner/-innen,948
+2019,Stadt Pforzheim,Krankenhausbetten je 100 tsd. Einwohner/-innen,935
+2013,Land BW,Krankenhausbetten je 100 tsd. Einwohner/-innen,533
+2014,Land BW,Krankenhausbetten je 100 tsd. Einwohner/-innen,527
+2015,Land BW,Krankenhausbetten je 100 tsd. Einwohner/-innen,516
+2016,Land BW,Krankenhausbetten je 100 tsd. Einwohner/-innen,511
+2017,Land BW,Krankenhausbetten je 100 tsd. Einwohner/-innen,506
+2018,Land BW,Krankenhausbetten je 100 tsd. Einwohner/-innen,502
+2019,Land BW,Krankenhausbetten je 100 tsd. Einwohner/-innen,500
