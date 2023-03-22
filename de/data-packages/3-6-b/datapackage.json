@@ -1,0 +1,55 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Enzkreis",
+                ""
+              ]
+            },
+            "title": "Region"
+          },
+          {
+            "name": "gruppe.beschaeftigt",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Ambulante Pflegedienste im Enzkreis",
+                "Ambulante Pflegedienste Stadt Pforzheim (auch im Enzkreis tätig)",
+                "Anerkannte Unterstützungsangebote nach UstA-VO BW",
+                "Beratungsangebote",
+                ""
+              ]
+            },
+            "title": "gruppe.beschaeftigt"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "3-6-b",
+  "title": "3-6-b"
+}

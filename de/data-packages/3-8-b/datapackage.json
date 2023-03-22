@@ -1,0 +1,57 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Jahr"
+          },
+          {
+            "name": "Region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Enzkreis",
+                ""
+              ]
+            },
+            "title": "Region"
+          },
+          {
+            "name": "gruppe.beschaeftigt",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Diesel Pkw",
+                "Otto Pkw",
+                "Leichte Nutzfahrzeuge",
+                "Schwere Nutzfahrzeuge",
+                "Busse",
+                "Krafträder",
+                ""
+              ]
+            },
+            "title": "gruppe.beschaeftigt"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "3-8-b",
+  "title": "3-8-b"
+}

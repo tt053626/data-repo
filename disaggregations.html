@@ -51,41 +51,15 @@
                 .table-striped tbody tr:nth-of-type(2n+1) {
                     background-color: #f3f2f1;
                 }
-                #skiplink {
-                    position: absolute;
-                    top: 0;
-                    left: 50%;
-                    z-index: 10000;
-                    width: 250px;
-                    margin-left: -125px;
-                    padding: 10px;
-                    background: white;
-                    text-align: center;
-                    border: 1px solid #0b0c0c;
-                    color: #0b0c0c;
-                    display: block;
-                }
-                .sr-only-focusable:not(:focus):not(:focus-within) {
-                    position: absolute !important;
-                    width: 1px !important;
-                    height: 1px !important;
-                    padding: 0 !important;
-                    margin: -1px !important;
-                    overflow: hidden !important;
-                    clip: rect(0, 0, 0, 0) !important;
-                    white-space: nowrap !important;
-                    border: 0 !important;
-                }
             </style>
         </head>
         <body>
-            <a class="sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container">
                     <a class="navbar-brand" href="index.html">SDG data build documentation</a>
                 </div>
             </nav>
-            <main id="main-content" role="main">
+            <main role="main">
                 <div class="container">
                     <h1 style="margin:20px 0">Disaggregation report</h1>
                     <div>
@@ -102,12 +76,12 @@
             
         <div class="my-3">
             <a href="disaggregation-report.csv" role="button" class="btn btn-primary" aria-describedby="disaggregation-report">Download CSV of disaggregations</a>
-            <div id="disaggregation-report" class="download-info">Size: 480 Bytes</div>
+            <div id="disaggregation-report" class="download-info">Size: 178 Bytes</div>
         </div>
         
             
                 <div class="total-rows">
-                    Total rows: <span class="total">27</span>
+                    Total rows: <span class="total">6</span>
                 </div>
                 <table border="1" class="dataframe table table-striped table-bordered" id="disaggregation-table">
   <thead>
@@ -119,146 +93,41 @@
   </thead>
   <tbody>
     <tr>
-      <td><a href="disaggregation--dataair.html">data.air</a></td>
+      <td><a href="disaggregation--grupparmut.html">grupp.armut</a></td>
+      <td>1</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>82</td>
+      <td>28</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation--gruppebetrieb.html">gruppe.betrieb</a></td>
+      <td>1</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation--gruppegewicht.html">gruppe.gewicht</a></td>
       <td>1</td>
       <td>3</td>
     </tr>
     <tr>
-      <td><a href="disaggregation--dataantworten.html">data.antworten</a></td>
-      <td>2</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td><a href="disaggregation--dataarea.html">data.area</a></td>
-      <td>2</td>
-      <td>7</td>
-    </tr>
-    <tr>
-      <td><a href="disaggregation--dataavailability.html">data.availability</a></td>
+      <td><a href="disaggregation--gruppestickstoffüberschuss.html">gruppe.stickstoffüberschuss</a></td>
       <td>1</td>
-      <td>7</td>
-    </tr>
-    <tr>
-      <td><a href="disaggregation--databezirk.html">data.bezirk</a></td>
       <td>1</td>
-      <td>20</td>
-    </tr>
-    <tr>
-      <td><a href="disaggregation--dataeinewelt.html">data.einewelt</a></td>
-      <td>1</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td><a href="disaggregation--dataesek.html">data.esek</a></td>
-      <td>1</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <td><a href="disaggregation--datagroup.html">data.group</a></td>
-      <td>1</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td><a href="disaggregation--datagruen.html">data.gruen</a></td>
-      <td>1</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td><a href="disaggregation--dataincident.html">data.incident</a></td>
-      <td>1</td>
-      <td>10</td>
-    </tr>
-    <tr>
-      <td><a href="disaggregation--datakat.html">data.kat</a></td>
-      <td>1</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <td><a href="disaggregation--dataluftg.html">data.luftg</a></td>
-      <td>1</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td><a href="disaggregation--datamaintransport.html">data.maintransport</a></td>
-      <td>1</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <td><a href="disaggregation--datanoise.html">data.noise</a></td>
-      <td>1</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <td><a href="disaggregation--datapartner.html">data.partner</a></td>
-      <td>1</td>
-      <td>13</td>
-    </tr>
-    <tr>
-      <td><a href="disaggregation--datapow.html">data.pow</a></td>
-      <td>1</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td><a href="disaggregation--dataredlistcat.html">data.redlistcat</a></td>
-      <td>1</td>
-      <td>10</td>
-    </tr>
-    <tr>
-      <td><a href="disaggregation--datasex.html">data.sex</a></td>
-      <td>2</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <td><a href="disaggregation--dataspatialtypes.html">data.spatialtypes</a></td>
-      <td>1</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td><a href="disaggregation--datastandort.html">data.standort</a></td>
-      <td>1</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td><a href="disaggregation--datazug.html">data.zug</a></td>
-      <td>1</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td><a href="disaggregation--datazustand.html">data.zustand</a></td>
-      <td>1</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td><a href="disaggregation--district.html">District</a></td>
-      <td>2</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td><a href="disaggregation--flotte.html">fLotte</a></td>
-      <td>2</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td><a href="disaggregation--ortsteil.html">Ortsteil</a></td>
-      <td>2</td>
-      <td>22</td>
     </tr>
     <tr>
       <td><a href="disaggregation--region.html">Region</a></td>
-      <td>1</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td><a href="disaggregation--status.html">Status</a></td>
-      <td>2</td>
-      <td>5</td>
+      <td>87</td>
+      <td>3</td>
     </tr>
   </tbody>
 </table>
             <script type="text/javascript">
             var sdgBuild = sdgBuild || {};
             sdgBuild.tables = sdgBuild.tables || {};
-            sdgBuild.tables['disaggregation-table'] = [{"Disaggregation":"<a href=\"disaggregation--dataair.html\">data.air<\/a>","Number of indicators":1,"Number of values":3},{"Disaggregation":"<a href=\"disaggregation--dataantworten.html\">data.antworten<\/a>","Number of indicators":2,"Number of values":2},{"Disaggregation":"<a href=\"disaggregation--dataarea.html\">data.area<\/a>","Number of indicators":2,"Number of values":7},{"Disaggregation":"<a href=\"disaggregation--dataavailability.html\">data.availability<\/a>","Number of indicators":1,"Number of values":7},{"Disaggregation":"<a href=\"disaggregation--databezirk.html\">data.bezirk<\/a>","Number of indicators":1,"Number of values":20},{"Disaggregation":"<a href=\"disaggregation--dataeinewelt.html\">data.einewelt<\/a>","Number of indicators":1,"Number of values":5},{"Disaggregation":"<a href=\"disaggregation--dataesek.html\">data.esek<\/a>","Number of indicators":1,"Number of values":4},{"Disaggregation":"<a href=\"disaggregation--datagroup.html\">data.group<\/a>","Number of indicators":1,"Number of values":3},{"Disaggregation":"<a href=\"disaggregation--datagruen.html\">data.gruen<\/a>","Number of indicators":1,"Number of values":5},{"Disaggregation":"<a href=\"disaggregation--dataincident.html\">data.incident<\/a>","Number of indicators":1,"Number of values":10},{"Disaggregation":"<a href=\"disaggregation--datakat.html\">data.kat<\/a>","Number of indicators":1,"Number of values":4},{"Disaggregation":"<a href=\"disaggregation--dataluftg.html\">data.luftg<\/a>","Number of indicators":1,"Number of values":3},{"Disaggregation":"<a href=\"disaggregation--datamaintransport.html\">data.maintransport<\/a>","Number of indicators":1,"Number of values":4},{"Disaggregation":"<a href=\"disaggregation--datanoise.html\">data.noise<\/a>","Number of indicators":1,"Number of values":4},{"Disaggregation":"<a href=\"disaggregation--datapartner.html\">data.partner<\/a>","Number of indicators":1,"Number of values":13},{"Disaggregation":"<a href=\"disaggregation--datapow.html\">data.pow<\/a>","Number of indicators":1,"Number of values":5},{"Disaggregation":"<a href=\"disaggregation--dataredlistcat.html\">data.redlistcat<\/a>","Number of indicators":1,"Number of values":10},{"Disaggregation":"<a href=\"disaggregation--datasex.html\">data.sex<\/a>","Number of indicators":2,"Number of values":4},{"Disaggregation":"<a href=\"disaggregation--dataspatialtypes.html\">data.spatialtypes<\/a>","Number of indicators":1,"Number of values":3},{"Disaggregation":"<a href=\"disaggregation--datastandort.html\">data.standort<\/a>","Number of indicators":1,"Number of values":3},{"Disaggregation":"<a href=\"disaggregation--datazug.html\">data.zug<\/a>","Number of indicators":1,"Number of values":2},{"Disaggregation":"<a href=\"disaggregation--datazustand.html\">data.zustand<\/a>","Number of indicators":1,"Number of values":2},{"Disaggregation":"<a href=\"disaggregation--district.html\">District<\/a>","Number of indicators":2,"Number of values":2},{"Disaggregation":"<a href=\"disaggregation--flotte.html\">fLotte<\/a>","Number of indicators":2,"Number of values":3},{"Disaggregation":"<a href=\"disaggregation--ortsteil.html\">Ortsteil<\/a>","Number of indicators":2,"Number of values":22},{"Disaggregation":"<a href=\"disaggregation--region.html\">Region<\/a>","Number of indicators":1,"Number of values":2},{"Disaggregation":"<a href=\"disaggregation--status.html\">Status<\/a>","Number of indicators":2,"Number of values":5}];
+            sdgBuild.tables['disaggregation-table'] = [{"Disaggregation":"<a href=\"disaggregation--grupparmut.html\">grupp.armut<\/a>","Number of indicators":1,"Number of values":2},{"Disaggregation":"<a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of indicators":82,"Number of values":28},{"Disaggregation":"<a href=\"disaggregation--gruppebetrieb.html\">gruppe.betrieb<\/a>","Number of indicators":1,"Number of values":2},{"Disaggregation":"<a href=\"disaggregation--gruppegewicht.html\">gruppe.gewicht<\/a>","Number of indicators":1,"Number of values":3},{"Disaggregation":"<a href=\"disaggregation--gruppestickstoff\u00fcberschuss.html\">gruppe.stickstoff\u00fcberschuss<\/a>","Number of indicators":1,"Number of values":1},{"Disaggregation":"<a href=\"disaggregation--region.html\">Region<\/a>","Number of indicators":87,"Number of values":3}];
             </script>
             
         </div>
@@ -267,12 +136,12 @@
             
         <div class="my-3">
             <a href="disaggregation-by-indicator-report.csv" role="button" class="btn btn-primary" aria-describedby="disaggregation-by-indicator-report">Download CSV of indicators</a>
-            <div id="disaggregation-by-indicator-report" class="download-info">Size: 738 Bytes</div>
+            <div id="disaggregation-by-indicator-report" class="download-info">Size: 3.3 kB</div>
         </div>
         
             
                 <div class="total-rows">
-                    Total rows: <span class="total">31</span>
+                    Total rows: <span class="total">87</span>
                 </div>
                 <table border="1" class="dataframe table table-striped table-bordered" id="indicator-table">
   <thead>
@@ -284,166 +153,446 @@
   </thead>
   <tbody>
     <tr>
-      <td>#1-2-1</td>
-      <td><a href="disaggregation--datagroup.html">data.group</a></td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>#10-4-1</td>
+      <td>#1-1</td>
       <td><a href="disaggregation--region.html">Region</a></td>
       <td>1</td>
     </tr>
     <tr>
-      <td>#11-1-1</td>
-      <td><a href="disaggregation--flotte.html">fLotte</a></td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>#11-2-1</td>
-      <td><a href="disaggregation--ortsteil.html">Ortsteil</a>, <a href="disaggregation--district.html">District</a></td>
+      <td>#1-2-a</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--grupparmut.html">grupp.armut</a></td>
       <td>2</td>
     </tr>
     <tr>
-      <td>#11-4-1</td>
-      <td><a href="disaggregation--datamaintransport.html">data.maintransport</a>, <a href="disaggregation--dataspatialtypes.html">data.spatialtypes</a></td>
+      <td>#1-2-b</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
       <td>2</td>
     </tr>
     <tr>
-      <td>#11-5-1</td>
-      <td><a href="disaggregation--dataarea.html">data.area</a></td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>#11-5-2</td>
-      <td><a href="disaggregation--datagruen.html">data.gruen</a></td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>#12-2-2</td>
-      <td><a href="disaggregation--status.html">Status</a></td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>#12-4-1</td>
-      <td><a href="disaggregation--status.html">Status</a></td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>#13-1-2</td>
-      <td><a href="disaggregation--dataantworten.html">data.antworten</a></td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>#13-2-2</td>
-      <td><a href="disaggregation--flotte.html">fLotte</a></td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>#13-3-1</td>
-      <td><a href="disaggregation--dataesek.html">data.esek</a></td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>#14-1-1</td>
-      <td><a href="disaggregation--dataredlistcat.html">data.redlistcat</a></td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>#15-1-1</td>
-      <td><a href="disaggregation--dataantworten.html">data.antworten</a></td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>#15-3-1</td>
-      <td><a href="disaggregation--dataarea.html">data.area</a></td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>#16-3-1</td>
-      <td><a href="disaggregation--dataincident.html">data.incident</a></td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>#16-4-1</td>
-      <td><a href="disaggregation--databezirk.html">data.bezirk</a></td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>#17-1-1</td>
-      <td><a href="disaggregation--datapartner.html">data.partner</a></td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>#17-4-1</td>
-      <td><a href="disaggregation--dataeinewelt.html">data.einewelt</a></td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>#2-1-1</td>
-      <td><a href="disaggregation--ortsteil.html">Ortsteil</a>, <a href="disaggregation--district.html">District</a></td>
+      <td>#10-1</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
       <td>2</td>
     </tr>
     <tr>
-      <td>#3-2-1</td>
-      <td><a href="disaggregation--datanoise.html">data.noise</a></td>
-      <td>1</td>
+      <td>#10-2</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
     </tr>
     <tr>
-      <td>#3-3-1</td>
-      <td><a href="disaggregation--dataair.html">data.air</a></td>
-      <td>1</td>
+      <td>#10-3</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
     </tr>
     <tr>
-      <td>#3-3-2</td>
-      <td><a href="disaggregation--dataluftg.html">data.luftg</a></td>
-      <td>1</td>
+      <td>#10-4</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
     </tr>
     <tr>
-      <td>#5-5-1</td>
-      <td><a href="disaggregation--datasex.html">data.sex</a></td>
-      <td>1</td>
+      <td>#11-1-a</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
     </tr>
     <tr>
-      <td>#6-1-1</td>
-      <td><a href="disaggregation--datazustand.html">data.zustand</a></td>
-      <td>1</td>
+      <td>#11-1-b</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
     </tr>
     <tr>
-      <td>#6-3-1</td>
-      <td><a href="disaggregation--datakat.html">data.kat</a></td>
-      <td>1</td>
+      <td>#11-2</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
     </tr>
     <tr>
-      <td>#7-3-1</td>
-      <td><a href="disaggregation--datapow.html">data.pow</a></td>
-      <td>1</td>
+      <td>#11-3</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
     </tr>
     <tr>
-      <td>#8-5-1</td>
-      <td><a href="disaggregation--datasex.html">data.sex</a></td>
-      <td>1</td>
+      <td>#11-4</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
     </tr>
     <tr>
-      <td>#9-1-1</td>
-      <td><a href="disaggregation--datastandort.html">data.standort</a></td>
-      <td>1</td>
+      <td>#11-5</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
     </tr>
     <tr>
-      <td>#9-2-1</td>
-      <td><a href="disaggregation--datazug.html">data.zug</a></td>
-      <td>1</td>
+      <td>#11-6</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
     </tr>
     <tr>
-      <td>#9-3-1</td>
-      <td><a href="disaggregation--dataavailability.html">data.availability</a></td>
-      <td>1</td>
+      <td>#11-7</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#11-8</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#11-9</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#12-1</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#12-2</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#12-3</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#12-4</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#12-5</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#12-6</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#13-1-a</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#13-1-b</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#13-2</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#13-3</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#14-1</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#15-1</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#15-2</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#15-3</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#15-4</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#15-5</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#16-1</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#16-2</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#16-3</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#16-4</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#17-1</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#17-2</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#17-3</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#2-1</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppegewicht.html">gruppe.gewicht</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#2-2</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebetrieb.html">gruppe.betrieb</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#2-3</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppestickstoffüberschuss.html">gruppe.stickstoffüberschuss</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#3-1</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#3-2</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#3-3</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#3-4</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#3-5-a</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#3-5-b</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#3-5-c</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#3-6-a</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#3-6-b</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#3-6-c</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#3-7</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#3-8-a</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#3-8-b</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#4-1-a</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#4-1-b</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#4-2</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#4-3</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#4-4</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#4-5</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#4-6</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#4-7</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#4-8</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#5-1</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#5-2</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#5-3</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#5-4</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#6-1</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#6-2</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#7-1-a</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#7-1-b</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#7-2</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#7-3</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#8-1</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#8-2</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#8-3</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#8-4</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#9-1</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#9-2</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#9-3</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#9-4</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#9-5-a</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#9-5-b</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#9-6-a</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>#9-6-b</td>
+      <td><a href="disaggregation--region.html">Region</a>, <a href="disaggregation--gruppebeschaeftigt.html">gruppe.beschaeftigt</a></td>
+      <td>2</td>
     </tr>
   </tbody>
 </table>
             <script type="text/javascript">
             var sdgBuild = sdgBuild || {};
             sdgBuild.tables = sdgBuild.tables || {};
-            sdgBuild.tables['indicator-table'] = [{"Indicator":"#1-2-1","Disaggregations":"<a href=\"disaggregation--datagroup.html\">data.group<\/a>","Number of disaggregations":1},{"Indicator":"#10-4-1","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>","Number of disaggregations":1},{"Indicator":"#11-1-1","Disaggregations":"<a href=\"disaggregation--flotte.html\">fLotte<\/a>","Number of disaggregations":1},{"Indicator":"#11-2-1","Disaggregations":"<a href=\"disaggregation--ortsteil.html\">Ortsteil<\/a>, <a href=\"disaggregation--district.html\">District<\/a>","Number of disaggregations":2},{"Indicator":"#11-4-1","Disaggregations":"<a href=\"disaggregation--datamaintransport.html\">data.maintransport<\/a>, <a href=\"disaggregation--dataspatialtypes.html\">data.spatialtypes<\/a>","Number of disaggregations":2},{"Indicator":"#11-5-1","Disaggregations":"<a href=\"disaggregation--dataarea.html\">data.area<\/a>","Number of disaggregations":1},{"Indicator":"#11-5-2","Disaggregations":"<a href=\"disaggregation--datagruen.html\">data.gruen<\/a>","Number of disaggregations":1},{"Indicator":"#12-2-2","Disaggregations":"<a href=\"disaggregation--status.html\">Status<\/a>","Number of disaggregations":1},{"Indicator":"#12-4-1","Disaggregations":"<a href=\"disaggregation--status.html\">Status<\/a>","Number of disaggregations":1},{"Indicator":"#13-1-2","Disaggregations":"<a href=\"disaggregation--dataantworten.html\">data.antworten<\/a>","Number of disaggregations":1},{"Indicator":"#13-2-2","Disaggregations":"<a href=\"disaggregation--flotte.html\">fLotte<\/a>","Number of disaggregations":1},{"Indicator":"#13-3-1","Disaggregations":"<a href=\"disaggregation--dataesek.html\">data.esek<\/a>","Number of disaggregations":1},{"Indicator":"#14-1-1","Disaggregations":"<a href=\"disaggregation--dataredlistcat.html\">data.redlistcat<\/a>","Number of disaggregations":1},{"Indicator":"#15-1-1","Disaggregations":"<a href=\"disaggregation--dataantworten.html\">data.antworten<\/a>","Number of disaggregations":1},{"Indicator":"#15-3-1","Disaggregations":"<a href=\"disaggregation--dataarea.html\">data.area<\/a>","Number of disaggregations":1},{"Indicator":"#16-3-1","Disaggregations":"<a href=\"disaggregation--dataincident.html\">data.incident<\/a>","Number of disaggregations":1},{"Indicator":"#16-4-1","Disaggregations":"<a href=\"disaggregation--databezirk.html\">data.bezirk<\/a>","Number of disaggregations":1},{"Indicator":"#17-1-1","Disaggregations":"<a href=\"disaggregation--datapartner.html\">data.partner<\/a>","Number of disaggregations":1},{"Indicator":"#17-4-1","Disaggregations":"<a href=\"disaggregation--dataeinewelt.html\">data.einewelt<\/a>","Number of disaggregations":1},{"Indicator":"#2-1-1","Disaggregations":"<a href=\"disaggregation--ortsteil.html\">Ortsteil<\/a>, <a href=\"disaggregation--district.html\">District<\/a>","Number of disaggregations":2},{"Indicator":"#3-2-1","Disaggregations":"<a href=\"disaggregation--datanoise.html\">data.noise<\/a>","Number of disaggregations":1},{"Indicator":"#3-3-1","Disaggregations":"<a href=\"disaggregation--dataair.html\">data.air<\/a>","Number of disaggregations":1},{"Indicator":"#3-3-2","Disaggregations":"<a href=\"disaggregation--dataluftg.html\">data.luftg<\/a>","Number of disaggregations":1},{"Indicator":"#5-5-1","Disaggregations":"<a href=\"disaggregation--datasex.html\">data.sex<\/a>","Number of disaggregations":1},{"Indicator":"#6-1-1","Disaggregations":"<a href=\"disaggregation--datazustand.html\">data.zustand<\/a>","Number of disaggregations":1},{"Indicator":"#6-3-1","Disaggregations":"<a href=\"disaggregation--datakat.html\">data.kat<\/a>","Number of disaggregations":1},{"Indicator":"#7-3-1","Disaggregations":"<a href=\"disaggregation--datapow.html\">data.pow<\/a>","Number of disaggregations":1},{"Indicator":"#8-5-1","Disaggregations":"<a href=\"disaggregation--datasex.html\">data.sex<\/a>","Number of disaggregations":1},{"Indicator":"#9-1-1","Disaggregations":"<a href=\"disaggregation--datastandort.html\">data.standort<\/a>","Number of disaggregations":1},{"Indicator":"#9-2-1","Disaggregations":"<a href=\"disaggregation--datazug.html\">data.zug<\/a>","Number of disaggregations":1},{"Indicator":"#9-3-1","Disaggregations":"<a href=\"disaggregation--dataavailability.html\">data.availability<\/a>","Number of disaggregations":1}];
+            sdgBuild.tables['indicator-table'] = [{"Indicator":"#1-1","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>","Number of disaggregations":1},{"Indicator":"#1-2-a","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--grupparmut.html\">grupp.armut<\/a>","Number of disaggregations":2},{"Indicator":"#1-2-b","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#10-1","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#10-2","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#10-3","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#10-4","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#11-1-a","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#11-1-b","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#11-2","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#11-3","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#11-4","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#11-5","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#11-6","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#11-7","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#11-8","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#11-9","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#12-1","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#12-2","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#12-3","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#12-4","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#12-5","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#12-6","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#13-1-a","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#13-1-b","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#13-2","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#13-3","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#14-1","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#15-1","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#15-2","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#15-3","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#15-4","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#15-5","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#16-1","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#16-2","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#16-3","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#16-4","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#17-1","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#17-2","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#17-3","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#2-1","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppegewicht.html\">gruppe.gewicht<\/a>","Number of disaggregations":2},{"Indicator":"#2-2","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebetrieb.html\">gruppe.betrieb<\/a>","Number of disaggregations":2},{"Indicator":"#2-3","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppestickstoff\u00fcberschuss.html\">gruppe.stickstoff\u00fcberschuss<\/a>","Number of disaggregations":2},{"Indicator":"#3-1","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#3-2","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#3-3","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#3-4","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#3-5-a","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#3-5-b","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#3-5-c","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#3-6-a","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#3-6-b","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#3-6-c","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#3-7","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#3-8-a","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#3-8-b","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#4-1-a","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#4-1-b","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#4-2","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#4-3","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#4-4","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#4-5","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#4-6","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#4-7","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#4-8","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#5-1","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#5-2","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#5-3","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#5-4","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#6-1","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#6-2","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#7-1-a","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#7-1-b","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#7-2","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#7-3","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#8-1","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#8-2","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#8-3","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#8-4","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#9-1","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#9-2","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#9-3","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#9-4","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#9-5-a","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#9-5-b","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#9-6-a","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2},{"Indicator":"#9-6-b","Disaggregations":"<a href=\"disaggregation--region.html\">Region<\/a>, <a href=\"disaggregation--gruppebeschaeftigt.html\">gruppe.beschaeftigt<\/a>","Number of disaggregations":2}];
             </script>
             
         </div>

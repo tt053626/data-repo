@@ -51,41 +51,15 @@
                 .table-striped tbody tr:nth-of-type(2n+1) {
                     background-color: #f3f2f1;
                 }
-                #skiplink {
-                    position: absolute;
-                    top: 0;
-                    left: 50%;
-                    z-index: 10000;
-                    width: 250px;
-                    margin-left: -125px;
-                    padding: 10px;
-                    background: white;
-                    text-align: center;
-                    border: 1px solid #0b0c0c;
-                    color: #0b0c0c;
-                    display: block;
-                }
-                .sr-only-focusable:not(:focus):not(:focus-within) {
-                    position: absolute !important;
-                    width: 1px !important;
-                    height: 1px !important;
-                    padding: 0 !important;
-                    margin: -1px !important;
-                    overflow: hidden !important;
-                    clip: rect(0, 0, 0, 0) !important;
-                    white-space: nowrap !important;
-                    border: 0 !important;
-                }
             </style>
         </head>
         <body>
-            <a class="sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container">
                     <a class="navbar-brand" href="index.html">SDG data build documentation</a>
                 </div>
             </nav>
-            <main id="main-content" role="main">
+            <main role="main">
                 <div class="container">
                     <h1 style="margin:20px 0">Disaggregation: Region</h1>
                     <div>
@@ -102,12 +76,12 @@
             
         <div class="my-3">
             <a href="values--disaggregation--region.csv" role="button" class="btn btn-primary" aria-describedby="values--disaggregation--region">Download CSV of values used in this disaggregation</a>
-            <div id="values--disaggregation--region" class="download-info">Size: 105 Bytes</div>
+            <div id="values--disaggregation--region" class="download-info">Size: 123 Bytes</div>
         </div>
         
             
                 <div class="total-rows">
-                    Total rows: <span class="total">2</span>
+                    Total rows: <span class="total">3</span>
                 </div>
                 <table border="1" class="dataframe table table-striped table-bordered" id="values-table">
   <thead>
@@ -119,12 +93,17 @@
   </thead>
   <tbody>
     <tr>
-      <td><a href="disaggregation-value--berlin.html">Berlin</a></td>
-      <td>1</td>
-      <td>1</td>
+      <td><a href="disaggregation-value--enzkreis.html">Enzkreis</a></td>
+      <td>182</td>
+      <td>87</td>
     </tr>
     <tr>
-      <td><a href="disaggregation-value--treptow-köpenick_.html">Treptow-Köpenick</a></td>
+      <td><a href="disaggregation-value--land-bw.html">Land BW</a></td>
+      <td>153</td>
+      <td>79</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--stadt-pforzheim.html">Stadt Pforzheim</a></td>
       <td>1</td>
       <td>1</td>
     </tr>
@@ -133,7 +112,7 @@
             <script type="text/javascript">
             var sdgBuild = sdgBuild || {};
             sdgBuild.tables = sdgBuild.tables || {};
-            sdgBuild.tables['values-table'] = [{"Value":"<a href=\"disaggregation-value--berlin.html\">Berlin<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--treptow-k\u00f6penick_.html\">Treptow-K\u00f6penick<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1}];
+            sdgBuild.tables['values-table'] = [{"Value":"<a href=\"disaggregation-value--enzkreis.html\">Enzkreis<\/a>","Disaggregation combinations using this value":182,"Number of indicators":87},{"Value":"<a href=\"disaggregation-value--land-bw.html\">Land BW<\/a>","Disaggregation combinations using this value":153,"Number of indicators":79},{"Value":"<a href=\"disaggregation-value--stadt-pforzheim.html\">Stadt Pforzheim<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1}];
             </script>
             
         </div>
@@ -142,12 +121,12 @@
             
         <div class="my-3">
             <a href="indicators--disaggregation--region.csv" role="button" class="btn btn-primary" aria-describedby="indicators--disaggregation--region">Download CSV of indicators using this disaggregation</a>
-            <div id="indicators--disaggregation--region" class="download-info">Size: 18 Bytes</div>
+            <div id="indicators--disaggregation--region" class="download-info">Size: 526 Bytes</div>
         </div>
         
             
                 <div class="total-rows">
-                    Total rows: <span class="total">1</span>
+                    Total rows: <span class="total">87</span>
                 </div>
                 <table border="1" class="dataframe table table-striped table-bordered" id="indicators-table">
   <thead>
@@ -157,14 +136,272 @@
   </thead>
   <tbody>
     <tr>
-      <td>#10-4-1</td>
+      <td>#1-1</td>
+    </tr>
+    <tr>
+      <td>#1-2-a</td>
+    </tr>
+    <tr>
+      <td>#1-2-b</td>
+    </tr>
+    <tr>
+      <td>#10-1</td>
+    </tr>
+    <tr>
+      <td>#10-2</td>
+    </tr>
+    <tr>
+      <td>#10-3</td>
+    </tr>
+    <tr>
+      <td>#10-4</td>
+    </tr>
+    <tr>
+      <td>#11-1-a</td>
+    </tr>
+    <tr>
+      <td>#11-1-b</td>
+    </tr>
+    <tr>
+      <td>#11-2</td>
+    </tr>
+    <tr>
+      <td>#11-3</td>
+    </tr>
+    <tr>
+      <td>#11-4</td>
+    </tr>
+    <tr>
+      <td>#11-5</td>
+    </tr>
+    <tr>
+      <td>#11-6</td>
+    </tr>
+    <tr>
+      <td>#11-7</td>
+    </tr>
+    <tr>
+      <td>#11-8</td>
+    </tr>
+    <tr>
+      <td>#11-9</td>
+    </tr>
+    <tr>
+      <td>#12-1</td>
+    </tr>
+    <tr>
+      <td>#12-2</td>
+    </tr>
+    <tr>
+      <td>#12-3</td>
+    </tr>
+    <tr>
+      <td>#12-4</td>
+    </tr>
+    <tr>
+      <td>#12-5</td>
+    </tr>
+    <tr>
+      <td>#12-6</td>
+    </tr>
+    <tr>
+      <td>#13-1-a</td>
+    </tr>
+    <tr>
+      <td>#13-1-b</td>
+    </tr>
+    <tr>
+      <td>#13-2</td>
+    </tr>
+    <tr>
+      <td>#13-3</td>
+    </tr>
+    <tr>
+      <td>#14-1</td>
+    </tr>
+    <tr>
+      <td>#15-1</td>
+    </tr>
+    <tr>
+      <td>#15-2</td>
+    </tr>
+    <tr>
+      <td>#15-3</td>
+    </tr>
+    <tr>
+      <td>#15-4</td>
+    </tr>
+    <tr>
+      <td>#15-5</td>
+    </tr>
+    <tr>
+      <td>#16-1</td>
+    </tr>
+    <tr>
+      <td>#16-2</td>
+    </tr>
+    <tr>
+      <td>#16-3</td>
+    </tr>
+    <tr>
+      <td>#16-4</td>
+    </tr>
+    <tr>
+      <td>#17-1</td>
+    </tr>
+    <tr>
+      <td>#17-2</td>
+    </tr>
+    <tr>
+      <td>#17-3</td>
+    </tr>
+    <tr>
+      <td>#2-1</td>
+    </tr>
+    <tr>
+      <td>#2-2</td>
+    </tr>
+    <tr>
+      <td>#2-3</td>
+    </tr>
+    <tr>
+      <td>#3-1</td>
+    </tr>
+    <tr>
+      <td>#3-2</td>
+    </tr>
+    <tr>
+      <td>#3-3</td>
+    </tr>
+    <tr>
+      <td>#3-4</td>
+    </tr>
+    <tr>
+      <td>#3-5-a</td>
+    </tr>
+    <tr>
+      <td>#3-5-b</td>
+    </tr>
+    <tr>
+      <td>#3-5-c</td>
+    </tr>
+    <tr>
+      <td>#3-6-a</td>
+    </tr>
+    <tr>
+      <td>#3-6-b</td>
+    </tr>
+    <tr>
+      <td>#3-6-c</td>
+    </tr>
+    <tr>
+      <td>#3-7</td>
+    </tr>
+    <tr>
+      <td>#3-8-a</td>
+    </tr>
+    <tr>
+      <td>#3-8-b</td>
+    </tr>
+    <tr>
+      <td>#4-1-a</td>
+    </tr>
+    <tr>
+      <td>#4-1-b</td>
+    </tr>
+    <tr>
+      <td>#4-2</td>
+    </tr>
+    <tr>
+      <td>#4-3</td>
+    </tr>
+    <tr>
+      <td>#4-4</td>
+    </tr>
+    <tr>
+      <td>#4-5</td>
+    </tr>
+    <tr>
+      <td>#4-6</td>
+    </tr>
+    <tr>
+      <td>#4-7</td>
+    </tr>
+    <tr>
+      <td>#4-8</td>
+    </tr>
+    <tr>
+      <td>#5-1</td>
+    </tr>
+    <tr>
+      <td>#5-2</td>
+    </tr>
+    <tr>
+      <td>#5-3</td>
+    </tr>
+    <tr>
+      <td>#5-4</td>
+    </tr>
+    <tr>
+      <td>#6-1</td>
+    </tr>
+    <tr>
+      <td>#6-2</td>
+    </tr>
+    <tr>
+      <td>#7-1-a</td>
+    </tr>
+    <tr>
+      <td>#7-1-b</td>
+    </tr>
+    <tr>
+      <td>#7-2</td>
+    </tr>
+    <tr>
+      <td>#7-3</td>
+    </tr>
+    <tr>
+      <td>#8-1</td>
+    </tr>
+    <tr>
+      <td>#8-2</td>
+    </tr>
+    <tr>
+      <td>#8-3</td>
+    </tr>
+    <tr>
+      <td>#8-4</td>
+    </tr>
+    <tr>
+      <td>#9-1</td>
+    </tr>
+    <tr>
+      <td>#9-2</td>
+    </tr>
+    <tr>
+      <td>#9-3</td>
+    </tr>
+    <tr>
+      <td>#9-4</td>
+    </tr>
+    <tr>
+      <td>#9-5-a</td>
+    </tr>
+    <tr>
+      <td>#9-5-b</td>
+    </tr>
+    <tr>
+      <td>#9-6-a</td>
+    </tr>
+    <tr>
+      <td>#9-6-b</td>
     </tr>
   </tbody>
 </table>
             <script type="text/javascript">
             var sdgBuild = sdgBuild || {};
             sdgBuild.tables = sdgBuild.tables || {};
-            sdgBuild.tables['indicators-table'] = [{"Indicator":"#10-4-1"}];
+            sdgBuild.tables['indicators-table'] = [{"Indicator":"#1-1"},{"Indicator":"#1-2-a"},{"Indicator":"#1-2-b"},{"Indicator":"#10-1"},{"Indicator":"#10-2"},{"Indicator":"#10-3"},{"Indicator":"#10-4"},{"Indicator":"#11-1-a"},{"Indicator":"#11-1-b"},{"Indicator":"#11-2"},{"Indicator":"#11-3"},{"Indicator":"#11-4"},{"Indicator":"#11-5"},{"Indicator":"#11-6"},{"Indicator":"#11-7"},{"Indicator":"#11-8"},{"Indicator":"#11-9"},{"Indicator":"#12-1"},{"Indicator":"#12-2"},{"Indicator":"#12-3"},{"Indicator":"#12-4"},{"Indicator":"#12-5"},{"Indicator":"#12-6"},{"Indicator":"#13-1-a"},{"Indicator":"#13-1-b"},{"Indicator":"#13-2"},{"Indicator":"#13-3"},{"Indicator":"#14-1"},{"Indicator":"#15-1"},{"Indicator":"#15-2"},{"Indicator":"#15-3"},{"Indicator":"#15-4"},{"Indicator":"#15-5"},{"Indicator":"#16-1"},{"Indicator":"#16-2"},{"Indicator":"#16-3"},{"Indicator":"#16-4"},{"Indicator":"#17-1"},{"Indicator":"#17-2"},{"Indicator":"#17-3"},{"Indicator":"#2-1"},{"Indicator":"#2-2"},{"Indicator":"#2-3"},{"Indicator":"#3-1"},{"Indicator":"#3-2"},{"Indicator":"#3-3"},{"Indicator":"#3-4"},{"Indicator":"#3-5-a"},{"Indicator":"#3-5-b"},{"Indicator":"#3-5-c"},{"Indicator":"#3-6-a"},{"Indicator":"#3-6-b"},{"Indicator":"#3-6-c"},{"Indicator":"#3-7"},{"Indicator":"#3-8-a"},{"Indicator":"#3-8-b"},{"Indicator":"#4-1-a"},{"Indicator":"#4-1-b"},{"Indicator":"#4-2"},{"Indicator":"#4-3"},{"Indicator":"#4-4"},{"Indicator":"#4-5"},{"Indicator":"#4-6"},{"Indicator":"#4-7"},{"Indicator":"#4-8"},{"Indicator":"#5-1"},{"Indicator":"#5-2"},{"Indicator":"#5-3"},{"Indicator":"#5-4"},{"Indicator":"#6-1"},{"Indicator":"#6-2"},{"Indicator":"#7-1-a"},{"Indicator":"#7-1-b"},{"Indicator":"#7-2"},{"Indicator":"#7-3"},{"Indicator":"#8-1"},{"Indicator":"#8-2"},{"Indicator":"#8-3"},{"Indicator":"#8-4"},{"Indicator":"#9-1"},{"Indicator":"#9-2"},{"Indicator":"#9-3"},{"Indicator":"#9-4"},{"Indicator":"#9-5-a"},{"Indicator":"#9-5-b"},{"Indicator":"#9-6-a"},{"Indicator":"#9-6-b"}];
             </script>
             
         </div>

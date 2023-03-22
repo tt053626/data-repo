@@ -1,0 +1,44 @@
+Year,Region,gruppe.beschaeftigt,Value
+1995.0,Enzkreis,Diesel Pkw,276.0
+2000.0,Enzkreis,Diesel Pkw,322.0
+2005.0,Enzkreis,Diesel Pkw,556.0
+2010.0,Enzkreis,Diesel Pkw,651.0
+2015.0,Enzkreis,Diesel Pkw,718.0
+2019.0,Enzkreis,Diesel Pkw,564.0
+2020.0,Enzkreis,Diesel Pkw,419.0
+1995.0,Enzkreis,Otto Pkw,753.0
+2000.0,Enzkreis,Otto Pkw,530.0
+2005.0,Enzkreis,Otto Pkw,369.0
+2010.0,Enzkreis,Otto Pkw,235.0
+2015.0,Enzkreis,Otto Pkw,156.0
+2019.0,Enzkreis,Otto Pkw,118.0
+2020.0,Enzkreis,Otto Pkw,90.0
+1995.0,Enzkreis,Leichte Nutzfahrzeuge,66.0
+2000.0,Enzkreis,Leichte Nutzfahrzeuge,71.0
+2005.0,Enzkreis,Leichte Nutzfahrzeuge,79.0
+2010.0,Enzkreis,Leichte Nutzfahrzeuge,120.0
+2015.0,Enzkreis,Leichte Nutzfahrzeuge,209.0
+2019.0,Enzkreis,Leichte Nutzfahrzeuge,181.0
+2020.0,Enzkreis,Leichte Nutzfahrzeuge,168.0
+1995.0,Enzkreis,Schwere Nutzfahrzeuge,1287.0
+2000.0,Enzkreis,Schwere Nutzfahrzeuge,1193.0
+2005.0,Enzkreis,Schwere Nutzfahrzeuge,1140.0
+2010.0,Enzkreis,Schwere Nutzfahrzeuge,572.0
+2015.0,Enzkreis,Schwere Nutzfahrzeuge,332.0
+2019.0,Enzkreis,Schwere Nutzfahrzeuge,198.0
+2020.0,Enzkreis,Schwere Nutzfahrzeuge,179.0
+1995.0,Enzkreis,Busse,177.0
+2000.0,Enzkreis,Busse,142.0
+2005.0,Enzkreis,Busse,126.0
+2010.0,Enzkreis,Busse,75.0
+2015.0,Enzkreis,Busse,52.0
+2019.0,Enzkreis,Busse,36.0
+2020.0,Enzkreis,Busse,29.0
+1995.0,Enzkreis,Krafträder,6.0
+2000.0,Enzkreis,Krafträder,7.0
+2005.0,Enzkreis,Krafträder,7.0
+2010.0,Enzkreis,Krafträder,5.0
+2015.0,Enzkreis,Krafträder,4.0
+2019.0,Enzkreis,Krafträder,3.0
+2020.0,Enzkreis,Krafträder,3.0
+,,,
