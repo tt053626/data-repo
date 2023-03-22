@@ -1,0 +1,14 @@
+Year,data.group,Value
+2021,data.repcaf,5
+2021,data.workshops,2
+2021,data.reuse,1
+2022,data.repcaf,5
+2022,data.workshops,2
+2022,data.reuse,1
+
+
+# for translations in other languages, use a translation-key in the group column
+# then sepecify the translation in both "translations/de/data.yml" and "translations/en/data.yml" etc...
+
+# IMPORTANT! For decimals use "." instead of ","
+# because "," is used to separate columns here!

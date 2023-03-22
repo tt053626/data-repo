@@ -1,0 +1,37 @@
+Year,Grade,Planet,Fruit,Value
+2010,,,,15.1591
+2011,,,,16.3583
+2010,A,,,14.1695
+2010,B,,,16.1488
+2011,A,,,15.5065
+2011,B,,,17.2102
+2010,A,Mercury,,17.3458
+2010,A,Venus,,13.3825
+2010,A,Earth,,11.7802
+2010,B,Mercury,,16.4394
+2010,B,Venus,,16.5942
+2010,B,Earth,,15.4127
+2011,A,Mercury,,15.669
+2011,A,Venus,,16.9856
+2011,A,Earth,,13.8649
+2011,B,Mercury,,13.2586
+2011,B,Venus,,19.4585
+2011,B,Earth,,18.9134
+2010,,Mercury,,16.8926
+2010,,Venus,,14.9884
+2010,,Earth,,13.5965
+2011,,Mercury,,14.4638
+2011,,Venus,,18.222
+2011,,Earth,,16.3891
+2010,,,Apples,14.8497
+2010,,,Oranges,14.6733
+2010,,,Lemons,15.9544
+2011,,,Apples,13.4712
+2011,,,Oranges,18.2388
+2011,,,Lemons,17.365
+
+
+# It's also possible to add multiple groups
+
+# IMPORTANT! For decimals use "." instead of ","
+# because "," is used to separate columns here!
