@@ -1,61 +1,50 @@
 Year,Region,gruppe.beschaeftigt,Value
-2007,Enzkreis,Beschäftigungsquote,0
-2008,Enzkreis,Beschäftigungsquote,0
-2009,Enzkreis,Beschäftigungsquote,0
-2010,Enzkreis,Beschäftigungsquote,0
-2011,Enzkreis,Beschäftigungsquote,0
-2012,Enzkreis,Beschäftigungsquote,0
-2013,Enzkreis,Beschäftigungsquote,0
-2014,Enzkreis,Beschäftigungsquote,0
-2015,Enzkreis,Beschäftigungsquote,0
-2016,Enzkreis,Beschäftigungsquote,0
-2017,Enzkreis,Beschäftigungsquote,0
-2018,Enzkreis,Beschäftigungsquote,0
-2019,Enzkreis,Beschäftigungsquote,0
-2020,Enzkreis,Beschäftigungsquote,0
-2021,Enzkreis,Beschäftigungsquote,0
-2007,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2008,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2009,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2010,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2011,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2012,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2013,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2014,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2015,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2016,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2017,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2018,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2019,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2020,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2021,Enzkreis,Beschäftigungsquote 55 - 64-Jährige,0
-2007,Land BW,Beschäftigungsquote,0
-2008,Land BW,Beschäftigungsquote,0
-2009,Land BW,Beschäftigungsquote,0
-2010,Land BW,Beschäftigungsquote,0
-2011,Land BW,Beschäftigungsquote,0
-2012,Land BW,Beschäftigungsquote,0
-2013,Land BW,Beschäftigungsquote,0
-2014,Land BW,Beschäftigungsquote,0
-2015,Land BW,Beschäftigungsquote,0
-2016,Land BW,Beschäftigungsquote,0
-2017,Land BW,Beschäftigungsquote,0
-2018,Land BW,Beschäftigungsquote,0
-2019,Land BW,Beschäftigungsquote,0
-2020,Land BW,Beschäftigungsquote,0
-2021,Land BW,Beschäftigungsquote,0
-2007,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
-2008,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
-2009,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
-2010,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
-2011,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
-2012,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
-2013,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
-2014,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
-2015,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
-2016,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
-2017,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
-2018,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
-2019,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
-2020,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
-2021,Land BW,Beschäftigungsquote 55 - 64-Jährige,0
+1995,Enzkreis,"Abriebemissionen (Reifen, Bremsen)",0
+2000,Enzkreis,"Abriebemissionen (Reifen, Bremsen)",29
+2005,Enzkreis,"Abriebemissionen (Reifen, Bremsen)",31
+2010,Enzkreis,"Abriebemissionen (Reifen, Bremsen)",30
+2015,Enzkreis,"Abriebemissionen (Reifen, Bremsen)",33
+2019,Enzkreis,"Abriebemissionen (Reifen, Bremsen)",35
+2020,Enzkreis,"Abriebemissionen (Reifen, Bremsen)",31
+1995,Enzkreis,Otto Pkw,7
+2000,Enzkreis,Otto Pkw,8
+2005,Enzkreis,Otto Pkw,5
+2010,Enzkreis,Otto Pkw,3
+2015,Enzkreis,Otto Pkw,2
+2019,Enzkreis,Otto Pkw,2
+2020,Enzkreis,Otto Pkw,1
+1995,Enzkreis,Schwere Nutzfahrzeuge,55
+2000,Enzkreis,Schwere Nutzfahrzeuge,30
+2005,Enzkreis,Schwere Nutzfahrzeuge,24
+2010,Enzkreis,Schwere Nutzfahrzeuge,9
+2015,Enzkreis,Schwere Nutzfahrzeuge,5
+2019,Enzkreis,Schwere Nutzfahrzeuge,3
+2020,Enzkreis,Schwere Nutzfahrzeuge,3
+1995,Enzkreis,Krafträder Enzkreis,3
+2000,Enzkreis,Krafträder Enzkreis,3
+2005,Enzkreis,Krafträder Enzkreis,3
+2010,Enzkreis,Krafträder Enzkreis,2
+2015,Enzkreis,Krafträder Enzkreis,2
+2019,Enzkreis,Krafträder Enzkreis,2
+2020,Enzkreis,Krafträder Enzkreis,1
+1995,Enzkreis,Diesel Pkw,45
+2000,Enzkreis,Diesel Pkw,38
+2005,Enzkreis,Diesel Pkw,33
+2010,Enzkreis,Diesel Pkw,18
+2015,Enzkreis,Diesel Pkw,10
+2019,Enzkreis,Diesel Pkw,5
+2020,Enzkreis,Diesel Pkw,4
+1995,Enzkreis,Leichte Nutzfahrzeuge,0
+2000,Enzkreis,Leichte Nutzfahrzeuge,0
+2005,Enzkreis,Leichte Nutzfahrzeuge,0
+2010,Enzkreis,Leichte Nutzfahrzeuge,0
+2015,Enzkreis,Leichte Nutzfahrzeuge,0
+2019,Enzkreis,Leichte Nutzfahrzeuge,0
+2020,Enzkreis,Leichte Nutzfahrzeuge,0
+1995,Enzkreis,Busse,8
+2000,Enzkreis,Busse,5
+2005,Enzkreis,Busse,3
+2010,Enzkreis,Busse,1
+2015,Enzkreis,Busse,1
+2019,Enzkreis,Busse,1
+2020,Enzkreis,Busse,0
